@@ -1,0 +1,12 @@
+baseURL = "http://help.fesco.com"
+languageCode = "en-us"
+title = "Fesco Help"
+theme = "pixxett"
+MetaDataFormat = "toml"
+Paginate = 10
+
+[taxonomies]
+    tag = "tags"
+#    blogtag = "blogtags"
+
+

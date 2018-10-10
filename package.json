@@ -1,0 +1,17 @@
+{
+  "name": "help.fesco.com",
+  "version": "1.0.0",
+  "description": "site hugo source",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gray-matter": "^4.0.1",
+    "grunt": "^1.0.3",
+    "string": "^3.3.3",
+    "string-russian": "^1.4.0-ru-1"
+  }
+}

@@ -1,0 +1,13 @@
+name = "pixxett"
+license = "MIT"
+description = "a minimal working template"
+homepage = "http://example.com/"
+tags = ["tags", "categories"]
+features = []
+min_version = "0.38"
+source_repo = ""
+
+
+
+
+

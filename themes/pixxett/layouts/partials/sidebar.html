@@ -1,0 +1,35 @@
+<!-- //////////////////////////////////////////////////////////////////////////// -->
+<!-- START SIDEBAR -->
+<div class="sidebar clearfix">
+    <div id="documenter_sidebar">
+        <div id="scrollholder" class="scrollholder">
+            <div id="scroll" class="scroll">
+                {{ $currentPage := . }}
+                <ol id="documenter_nav" class="sidebar-panel nav">
+                    <li><a class="current" href="/"><i class="fa fa-home"></i> Home</a></li>
+                    {{ range .Site.Menus.main }}
+                        {{ if .HasChildren }}
+                            <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active current{{ end }}">
+                            <a href="{{.URL}}" class="jquery-off">{{ .Name }} </a>
+                                <ol style='{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} display: block{{end}}'>
+                                {{ range .Children }}
+                                    <li>
+                                    <a href="{{.URL}}" class="{{ if $currentPage.IsMenuCurrent "main" . }}current{{ end }}">{{ .Name }} </a>
+                                    </li>
+                                {{ end }}
+                                </olsty>
+                            </li>
+                        {{ else }}
+                            <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active current{{ end }}">
+                            <a href="{{.URL}}">{{ .Name }} </a>
+                            </li>
+                        {{ end }}
+                    {{ end }}
+                </ol>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- END SIDEBAR -->
+<!-- //////////////////////////////////////////////////////////////////////////// -->
