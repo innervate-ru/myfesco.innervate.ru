@@ -2,20 +2,22 @@
 date: "2018-03-29T21:54:53-05:00"
 title: "Test1"
 titleEn: "test1"
-tags: ["api", "метод"]
+tags: ["api", "methods"]
 Description: ""
-menu:
-  main: 
-    Name: test1
-    Identifier: "test1"
-    Weight: 10
-    Parent: "api"
-    URL: "/api/test1/"
+languages:
+    en:
+        menu:
+          main: 
+            Name: test1
+            Identifier: "test1"
+            Weight: 10
+            Parent: "api"
+            URL: "/en/api/test1/"
 ---
 
-## Получение списка инвойсов
+## Get invoice list
 
-Пример кода
+Code example
 ```js
 grunt.initConfig({
   assemble: {

@@ -4,13 +4,7 @@ title: "Test2"
 titleEn: "test2"
 tags: ["api", "метод"]
 Description: ""
-menu:
-  main: 
-    Name: test2
-    Identifier: "test2"
-    Weight: 10
-    Parent: "api"
-    URL: "/api/test2/"
+
 ---
 
 ## Получение списка контейнеров

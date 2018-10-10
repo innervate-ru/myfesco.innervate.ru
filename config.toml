@@ -1,12 +1,24 @@
 baseURL = "https://kb.innervate.ru"
-languageCode = "en-us"
+#languageCode = "en-us"
 title = "Fesco Help"
 theme = "pixxett"
 MetaDataFormat = "toml"
 Paginate = 10
+DefaultContentLanguage = "ru"
+#defaultContentLanguageInSubdir= true
 
 [taxonomies]
     tag = "tags"
-#    blogtag = "blogtags"
+
+[languages]
+[languages.ru]
+weight = 1
+languageName = "Russian"
+
+[languages.en]
+weight = 0
+languageName = "English"
+
+
 
 

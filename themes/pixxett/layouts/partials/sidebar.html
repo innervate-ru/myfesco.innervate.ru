@@ -1,4 +1,6 @@
 <!-- //////////////////////////////////////////////////////////////////////////// -->
+{{ $currentNode := . }}
+{{ $showvisitedlinks := .Site.Params.showVisitedLinks }}
 <!-- START SIDEBAR -->
 <div class="sidebar clearfix">
     <div id="documenter_sidebar">
@@ -6,25 +8,28 @@
             <div id="scroll" class="scroll">
                 {{ $currentPage := . }}
                 <ol id="documenter_nav" class="sidebar-panel nav">
-                    <li><a class="current" href="/"><i class="fa fa-home"></i> Home</a></li>
-                    {{ range .Site.Menus.main }}
-                        {{ if .HasChildren }}
-                            <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active current{{ end }}">
-                            <a href="{{.URL}}" class="jquery-off">{{ .Name }} </a>
-                                <ol style='{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} display: block{{end}}'>
-                                {{ range .Children }}
-                                    <li>
-                                    <a href="{{.URL}}" class="{{ if $currentPage.IsMenuCurrent "main" . }}current{{ end }}">{{ .Name }} </a>
-                                    </li>
-                                {{ end }}
-                                </olsty>
-                            </li>
-                        {{ else }}
-                            <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active current{{ end }}">
-                            <a href="{{.URL}}">{{ .Name }} </a>
-                            </li>
-                        {{ end }}
-                    {{ end }}
+                    {{range .Site.Home.Sections.ByWeight}}
+                    {{ template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks}}
+                    {{end}}
+                    <!--{{ range .Site.Menus.main }}-->
+                        <!--<pre>1</pre>-->
+                        <!--{{ if .HasChildren }}-->
+                            <!--<li class="{{ if $currentPage.HasMenuCurrent "main" . }}active current{{ end }}">-->
+                            <!--<a href="{{.URL}}" class="jquery-off">{{ .Name }} </a>-->
+                                <!--<ol style='{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} display: block{{end}}'>-->
+                                <!--{{ range .Children }}-->
+                                    <!--<li>-->
+                                    <!--<a href="{{.URL}}" class="{{ if $currentPage.IsMenuCurrent "main" . }}current{{ end }}">{{ .Name }} </a>-->
+                                    <!--</li>-->
+                                <!--{{ end }}-->
+                                <!--</olsty>-->
+                            <!--</li>-->
+                        <!--{{ else }}-->
+                            <!--<li class="{{ if $currentPage.IsMenuCurrent "main" . }}active current{{ end }}">-->
+                            <!--<a href="{{.URL}}">{{ .Name }} </a>-->
+                            <!--</li>-->
+                        <!--{{ end }}-->
+                    <!--{{ end }}-->
                 </ol>
             </div>
         </div>
@@ -33,3 +38,63 @@
 </div>
 <!-- END SIDEBAR -->
 <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+<!-- templates -->
+{{ define "section-tree-nav" }}
+{{ $showvisitedlinks := .showvisitedlinks }}
+{{ $currentNode := .currentnode }}
+{{with .sect}}
+{{if .IsSection}}
+{{safeHTML .Params.head}}
+<li data-nav-id="{{.URL}}" title="{{.Title}}" class="dd-item
+        {{if .IsAncestor $currentNode }}parent{{end}}
+        {{if .Params.alwaysopen}}parent{{end}}
+        ">
+    <a href="{{.RelPermalink}}" class="jquery-off {{if eq .UniqueID $currentNode.UniqueID}}current{{end}}">
+        {{safeHTML .Params.Pre}}{{or .Params.menuTitle .LinkTitle .Title}}{{safeHTML .Params.Post}}
+        {{ if $showvisitedlinks}}
+        <i class="fas read-icon"></i>
+        {{ end }}
+    </a>
+    {{ $numberOfPages := (add (len .Pages) (len .Sections)) }}
+    {{ if ne $numberOfPages 0 }}
+    <ol
+            {{if eq .UniqueID $currentNode.UniqueID}}style="display:block"{{end}}
+            {{if .IsAncestor $currentNode }}style="display:block"{{end}}
+    >
+        {{ $currentNode.Scratch.Set "pages" .Pages }}
+        {{ if .Sections}}
+        {{ $currentNode.Scratch.Set "pages" (.Pages | union .Sections) }}
+        {{end}}
+        {{ $pages := ($currentNode.Scratch.Get "pages") }}
+
+        {{if eq .Site.Params.ordersectionsby "title"}}
+        {{ range $pages.ByTitle }}
+        {{ if and .Params.hidden (not $.showhidden) }}
+        {{else}}
+        {{ template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks }}
+        {{end}}
+        {{ end }}
+        {{else}}
+        {{ range $pages.ByWeight }}
+        {{ if and .Params.hidden (not $.showhidden) }}
+        {{else}}
+        {{ template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks }}
+        {{end}}
+        {{ end }}
+        {{end}}
+    </ol>
+    {{ end }}
+</li>
+{{else}}
+{{ if not .Params.Hidden }}
+<li data-nav-id="{{.URL}}" title="{{.Title}}" class="dd-item">
+    <a href="{{ .RelPermalink}}" class="jquery-off {{if eq .UniqueID $currentNode.UniqueID}}current{{end}}">
+        {{safeHTML .Params.Pre}}{{or .Params.menuTitle .LinkTitle .Title}}{{safeHTML .Params.Post}}
+        {{ if $showvisitedlinks}}<i class="fas fa-check read-icon"></i>{{end}}
+    </a>
+</li>
+{{ end }}
+{{end}}
+{{ end }}
+{{ end }}
