@@ -40,6 +40,9 @@ if is_err; then return; fi
 git_push
 if is_err; then return; fi
 
+# строим индекс для поиска
+grunt search-index
+
 # Build the project.
 hugo
 

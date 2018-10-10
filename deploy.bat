@@ -9,6 +9,8 @@ git add .
 git commit -m "update"
 git push origin master
 
+grunt search-index
+
 hugo
 
 cd public

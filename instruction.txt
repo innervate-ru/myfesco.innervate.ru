@@ -1,3 +1,0 @@
-
-установить grunt
-npm install -g grunt-cli

@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo -e "create project directories"
 @echo on
 
