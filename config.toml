@@ -1,4 +1,4 @@
-baseURL = "http://help.fesco.com"
+baseURL = "https://kb.innervate.ru"
 languageCode = "en-us"
 title = "Fesco Help"
 theme = "pixxett"
