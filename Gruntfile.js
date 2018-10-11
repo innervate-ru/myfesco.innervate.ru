@@ -11,7 +11,7 @@ module.exports = function(grunt) {
             var pagesIndex = [];
             grunt.file.recurse(CONTENT_PATH_PREFIX, function(abspath, rootdir, subdir, filename) {
                 // индексируем только md файлы
-                if (filename.split('.').length>1 && filename.split('.')[1] != 'md') {
+                if (filename.split('.').pop() != 'md') {
                     return
                 }
                 grunt.verbose.writeln('Parse file:', abspath);
@@ -25,7 +25,7 @@ module.exports = function(grunt) {
 
         var processMDFile = function(abspath, filename) {
             var content = matter(grunt.file.read(abspath, filename));
-            // console.log('content:', content)
+            // console.log(filename, 'content:', content)
             if (content.data.draft) {
                 // don't index draft posts
                 return;
