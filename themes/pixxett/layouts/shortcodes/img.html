@@ -1,8 +1,11 @@
 {{ $img := $.Page.Resources.GetMatch (.Get "name") }}
 
 {{ if $img }}
-<figure class='{{.Get "class"}}'>
-    <img src="{{ $img.RelPermalink }}" class="img-fluid" alt='{{ with .Get "alt"}}{{.}}{{else}}{{.Get "title"}}{{end}}'/>
+<figure class='{{.Get "class"}}' {{ with .Get "style"}}style='{{. | safeCSS}}'{{end}}>
+    <img src="{{ $img.RelPermalink }}" class="img-fluid"
+         alt='{{ with .Get "alt"}}{{.}}{{else}}{{.Get "title"}}{{end}}'
+         {{ with .Get "zoom"}}data-action="zoom"{{end}}
+    />
     <!--<figcaption>{{.Get "title"}}</figcaption>-->
 </figure>
 {{ else }}

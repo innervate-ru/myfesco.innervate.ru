@@ -3064,3 +3064,9 @@ tr.group, tr.group:hover {
     padding: 10px;
     display: none;
 }
+
+.img-fluid {
+    /*display: inline-block;*/
+    max-width: 100%;
+    height: auto;
+}

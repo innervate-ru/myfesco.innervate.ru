@@ -25,6 +25,9 @@ Description: ""
 Вздыхать и думать про себя:  
 Когда же черт возьмет тебя!»  
 
+{{< img name="images/title*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" zoom="true" style="width:30%; margin: 0 auto;">}}
+
+
 ```js
 grunt.initConfig({
   assemble: {
