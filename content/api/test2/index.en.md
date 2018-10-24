@@ -4,6 +4,8 @@ title: "Test2"
 titleEn: "test2"
 tags: ["api", "method"]
 Description: ""
+type: api_doc
+layout: api_doc
 
 ---
 

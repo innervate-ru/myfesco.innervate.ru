@@ -2714,3 +2714,7 @@ tr.group, tr.group:hover {
 .footer {
   margin-bottom: 25px;
 }
+
+.img-fluid {
+  width: 100%
+}

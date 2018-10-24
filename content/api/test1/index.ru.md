@@ -4,10 +4,19 @@ title: "Test1"
 titleEn: "test1"
 tags: ["api", "метод"]
 Description: ""
+type: api_doc
+layout: api_doc
 
 ---
 
 ## Получение списка инвойсов
+
+оррррр
+
+{{< img name="images/prikolnie_gifki_11*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:60%; margin: 0 auto;">}}
+
+khkhkjh
+
 
 Пример кода
 ```js

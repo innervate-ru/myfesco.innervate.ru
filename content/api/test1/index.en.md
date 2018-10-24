@@ -4,6 +4,8 @@ title: "Test1"
 titleEn: "test1"
 tags: ["api", "methods"]
 Description: ""
+type: api_doc
+layout: api_doc
 ---
 
 ## Get invoice list
