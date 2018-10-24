@@ -19,14 +19,8 @@ layout: api_doc
 Подача заявки в электронном виде, без дублирования 
 в бумажном формате (+ возможность сохранять шаблоны)
 
-<ul>
-	<li>
-		<span>
-{{< img name="images/icon1*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" zoom="true" style="width:30%; margin: 0 auto;">}}
-		</span>
-		<span>
-			kuku
-		</span>
+Пример списка
+{{< listRowWithIcon img="images/icon1*" text="Подача заявки">}}
+{{< listRowWithIcon img="images/icon1*" text="Доступ к счетам">}}
 
-	</li>
-</ul>
+тра-ла-ла
