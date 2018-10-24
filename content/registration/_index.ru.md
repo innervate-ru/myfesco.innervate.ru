@@ -9,8 +9,4 @@ layout: api_doc
 weight: 1
 ---
 
-[Инструкция](/registration/instruction/)
-
-[Популярные вопросы](/registration/questions/=)
-
-{{< img name="images/icon1*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" zoom="true" style="width:30%; margin: 0 auto;">}}
+Раздел в разработке.

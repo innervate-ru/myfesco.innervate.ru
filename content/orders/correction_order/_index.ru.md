@@ -9,6 +9,4 @@ layout: api_doc
 weight: 11
 ---
 
-[Инструкция](/registration/instruction/)
-
-[Вопросы](/registration/questions/=)
+Раздел в разработке.
