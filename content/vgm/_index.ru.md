@@ -3,8 +3,8 @@ Categories: []
 Description: ""
 Tags: []
 date: "2014-09-29T21:54:53-05:00"
-title: "Зачем нужен личный кабинет?"
-weight: 100
+title: "VGM"
+weight: 5
 type: api_doc
 layout: api_doc
 ---

@@ -6,9 +6,9 @@ tags: ["api", "метод"]
 Description: ""
 type: api_doc
 layout: api_doc
-weight: 200
+weight: 1
 ---
 
 [Инструкция](/registration/instruction/)
 
-[Вопросы](/registration/questions/=)
+[Популярные вопросы](/registration/questions/=)
