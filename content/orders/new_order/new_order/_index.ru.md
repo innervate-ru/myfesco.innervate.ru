@@ -10,4 +10,8 @@ weight: 1
 ---
 
 {{< listRowWithIcon img="images/icon1*" text="Подача заявки">}}
-{{< listRowWithIcon img="images/icon1*" text="Доступ к счетам">}}
+{{< listRowWithIcon img="images/icon1*" text="Доступ к счетам
+
+{{< img name="images/icon1*" title="Подпись к фото которая попадает в тег alt">}}
+
+{{< img name="images/icon1*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" zoom="true" style="width:30%; margin: 0 auto;">}}
