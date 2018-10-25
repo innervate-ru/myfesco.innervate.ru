@@ -21,7 +21,7 @@ weight: 10
 
 ! Указанные при регистрации ИНН и электронная почта будут использованы для проверки в системе. Просьба удостовериться в корректности введенных данных.
 
-{{< img name="images/screencast1*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:50%">}}
+{{< img name="images/screencast1-1*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:50%">}}
 
 #####  Теперь вы можете <a href="https://my.fesco.com/login" target="_blank">войти</a>  в Личный кабинет!
 
