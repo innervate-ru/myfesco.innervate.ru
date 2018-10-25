@@ -9,4 +9,3 @@ layout: api_doc
 weight: 1
 ---
 
-а) Войдите по ссылке https://my.fesco.com/registration и заполните форму регистрации

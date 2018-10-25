@@ -9,4 +9,3 @@ layout: api_doc
 weight: 2
 ---
 
-Раздел в разработке.

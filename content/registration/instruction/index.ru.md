@@ -11,7 +11,7 @@ weight: 10
 ---
 
 
-а) войдите по ссылке https://my.fesco.com/registration и заполните **форму регистрации**;
+а) перейдите по  <a href="https://my.fesco.com/registration" target="_blank">ссылке</a>   и заполните **форму регистрации**;
 
 б) дождитесь получения кода подтверждения регистрации в виде **SMS** с номера FESCO на указанный мобильный номер;
 
@@ -19,15 +19,14 @@ weight: 10
 
 г) на указанный Вами телефон и электронную почту будет выслан **пароль для входа** в систему.
 
-#####  Теперь вы можете [войти](https://my.fesco.com/login) в Личный кабинет!
-
-
-| Option | Description |
-| ------:| -----------:|
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-
-
 ! Указанные при регистрации ИНН и электронная почта будут использованы для проверки в системе. Просьба удостовериться в корректности введенных данных.
 
+{{< img name="images/screencast1*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:50%">}}
+
+#####  Теперь вы можете <a href="https://my.fesco.com/login" target="_blank">войти</a>  в Личный кабинет!
+
+
+
+Вам предоставлен **ограниченный доступ** к Личному кабинету. 
+
+{{< img name="images/table*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:50%">}}
