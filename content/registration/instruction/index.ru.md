@@ -11,23 +11,23 @@ weight: 10
 ---
 
 
-Личный кабинет — это ваше индивидуальное цифровое пространство для отслеживания ваших грузоперевозок.
+а) войдите по ссылке https://my.fesco.com/registration и заполните **форму регистрации**;
 
-Возможности личного кабинета:
+б) дождитесь получения кода подтверждения регистрации в виде **SMS** с номера FESCO на указанный мобильный номер;
 
-{{< img name="images/icon1*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" zoom="true" style="width:30%; margin: 0 auto;">}}
+в) введите **код подтверждения** в той же форме регистрации;
 
-Подача заявки в электронном виде, без дублирования 
-в бумажном формате (+ возможность сохранять шаблоны)
+г) на указанный Вами телефон и электронную почту будет выслан **пароль для входа** в систему.
 
-<ul>
-	<li>
-		<span>
-{{< img name="images/icon1*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" zoom="true" style="width:30%; margin: 0 auto;">}}
-		</span>
-		<span>
-			kuku
-		</span>
+#####  Теперь вы можете [войти](https://my.fesco.com/login) в Личный кабинет!
 
-	</li>
-</ul>
+
+| Option | Description |
+| ------:| -----------:|
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
+
+
+! Указанные при регистрации ИНН и электронная почта будут использованы для проверки в системе. Просьба удостовериться в корректности введенных данных.
+

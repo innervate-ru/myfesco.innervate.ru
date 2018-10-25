@@ -9,4 +9,4 @@ layout: api_doc
 weight: 1
 ---
 
-Раздел в разработке.
+а) Войдите по ссылке https://my.fesco.com/registration и заполните форму регистрации
