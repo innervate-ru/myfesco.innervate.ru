@@ -1,7 +1,8 @@
-{{/*<btn href="#" color="primary" icon="picture-o" text="куку">*/}}
+{{/*<btn href="#" color="primary" icon="picture-o" text="куку" target="_blank">*/}}
 
 {{ $colorClass := .Get "color"}}
 {{ $href := .Get "href"}}
+{{ $target := .Get "target"}}
 
 <!--дефолтное значение ссылки-->
 {{ if not $href }}
@@ -13,7 +14,12 @@
 {{$colorClass = "deault"}}
 {{end}}
 
-<a href="{{$href}}" class="btn btn-{{$colorClass}}">
+<!--дефолтное значение target-->
+{{ if not $target }}
+{{$target = "_self"}}
+{{end}}
+
+<a href="{{$href}}" class="btn btn-{{$colorClass}}" {{$target}}>
     {{with .Get "icon"}}
     <i class="fa fa-{{.}}"></i>
     {{end}}
