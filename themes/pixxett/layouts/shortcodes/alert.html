@@ -1,0 +1,24 @@
+<!--{{<alert icon="car" color="alert10-light" text="Сообщение об ошибке" close="true">}}-->
+
+{{ $colorClass := .Get "color"}}
+{{ $iconClass := "pixxett-alert"}}
+
+<!--дефолтное значение цвета-->
+{{ if not $colorClass }}
+{{$colorClass = "alert7-light"}}
+{{end}}
+
+<!--если указана икнока, то меняем класс-->
+{{if .Get "icon"}}
+{{$iconClass = "pixxett-alert-icon"}}
+{{end}}
+
+<div class="pixxett-alert {{$iconClass}} {{$colorClass}}">
+    {{ with .Get "icon"}}
+    <i class="fa fa-{{.}}"></i>
+    {{end}}
+    {{ with .Get "close"}}
+    {{if eq . "true"}}<a href="#" class="closed">×</a>{{end}}
+    {{end}}
+    {{with .Get "text"}}{{.}}{{end}}
+</div>
