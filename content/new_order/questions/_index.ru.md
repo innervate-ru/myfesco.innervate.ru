@@ -7,6 +7,7 @@ Description: ""
 type: api_doc
 layout: api_doc
 weight: 13
+menuIcon: cloud
 ---
 
 Раздел в разработке.
