@@ -1,0 +1,15 @@
+{{/*<btn color="primary" icon="picture-o" text="куку">*/}}
+
+{{ $colorClass := .Get "color"}}
+
+<!--дефолтное значение цвета-->
+{{ if not $colorClass }}
+{{$colorClass = "deault"}}
+{{end}}
+
+<a href="#" class="btn btn-{{$colorClass}}">
+    {{with .Get "icon"}}
+    <i class="fa fa-{{.}}"></i>
+    {{end}}
+    {{.Get "text"}}
+</a>
