@@ -1,13 +1,19 @@
-{{/*<btn color="primary" icon="picture-o" text="куку">*/}}
+{{/*<btn href="#" color="primary" icon="picture-o" text="куку">*/}}
 
 {{ $colorClass := .Get "color"}}
+{{ $href := .Get "href"}}
+
+<!--дефолтное значение ссылки-->
+{{ if not $href }}
+{{$href = "#"}}
+{{end}}
 
 <!--дефолтное значение цвета-->
 {{ if not $colorClass }}
 {{$colorClass = "deault"}}
 {{end}}
 
-<a href="#" class="btn btn-{{$colorClass}}">
+<a href="{{$href}}" class="btn btn-{{$colorClass}}">
     {{with .Get "icon"}}
     <i class="fa fa-{{.}}"></i>
     {{end}}
