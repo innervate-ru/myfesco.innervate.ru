@@ -38,7 +38,6 @@ module.exports = function (grunt) {
             if (filename.indexOf('index.en.md') > -1) {
                 href = 'en' + S(abspath).chompLeft(CONTENT_PATH_PREFIX).chompRight(filename).s;
             }
-            console.log('href:', href)
             var pageIndex;
             return {
                 title: content.data.title,
