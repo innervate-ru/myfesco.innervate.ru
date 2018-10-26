@@ -21,6 +21,7 @@ weight: 10
 
 {{< img name="images/screencast1-1*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:50%">}}
 
+<br/>
 
 {{<alert icon="car" color="alert5-light" text="Указанные при регистрации ИНН и электронная почта будут использованы для проверки в системе. Просьба удостовериться в корректности введенных данных." close="false">}}
 
@@ -36,5 +37,8 @@ weight: 10
 
 Теперь вы можете войти в Личный кабинет! 
 
-{{<btn color="warning" icon="external-link-square" text="Войти в личный кабинет">}}
+<br/>
+
+{{<btn target="_blank" href="https://my.fesco.com/login" color="warning" icon="external-link-square" text="Войти в личный кабинет">}}
+
 
