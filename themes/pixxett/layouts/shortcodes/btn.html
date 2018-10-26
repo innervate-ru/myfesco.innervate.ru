@@ -19,7 +19,7 @@
 {{$target = "_self"}}
 {{end}}
 
-<a href="{{$href}}" class="btn btn-{{$colorClass}}" {{$target}}>
+<a href="{{$href}}" class="btn btn-{{$colorClass}}" target="{{$target}}">
     {{with .Get "icon"}}
     <i class="fa fa-{{.}}"></i>
     {{end}}
