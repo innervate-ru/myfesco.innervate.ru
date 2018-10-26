@@ -28,4 +28,13 @@ weight: 10
 
 Вам предоставлен **ограниченный доступ** к Личному кабинету. 
 
-{{< img name="images/table*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:50%">}}
+{{< img name="images/table*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:50%">}}\
+
+
+<div style=” line-height:1.5;”>
+Пример изменения межстрочного 
+интервала текста в HTML и СSS.
+смссм
+смс  
+
+</div></li>
