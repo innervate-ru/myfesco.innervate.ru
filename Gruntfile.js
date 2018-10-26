@@ -3,13 +3,13 @@ var S = require('string-russian');
 
 var CONTENT_PATH_PREFIX = 'content';
 
-module.exports = function(grunt) {
-    grunt.registerTask('search-index', function() {
+module.exports = function (grunt) {
+    grunt.registerTask('search-index', function () {
         grunt.log.writeln('Build pages index');
 
-        var indexPages = function() {
+        var indexPages = function () {
             var pagesIndex = [];
-            grunt.file.recurse(CONTENT_PATH_PREFIX, function(abspath, rootdir, subdir, filename) {
+            grunt.file.recurse(CONTENT_PATH_PREFIX, function (abspath, rootdir, subdir, filename) {
                 // индексируем только md файлы
                 if (filename.split('.').pop() != 'md') {
                     return
@@ -23,17 +23,22 @@ module.exports = function(grunt) {
             return pagesIndex;
         };
 
-        var processMDFile = function(abspath, filename) {
+        var processMDFile = function (abspath, filename) {
             var content = matter(grunt.file.read(abspath, filename));
             // console.log(filename, 'content:', content)
             if (content.data.draft) {
                 // don't index draft posts
                 return;
             }
-            href = S(abspath).chompLeft(CONTENT_PATH_PREFIX).chompRight(".md").s
-            if (filename === "index.md" || filename === "_index.md") {
+            href = S(abspath).chompLeft(CONTENT_PATH_PREFIX).s
+            if (filename.indexOf('index.ru.md') > -1 || filename.indexOf('index.en.md') > -1) {
                 href = S(abspath).chompLeft(CONTENT_PATH_PREFIX).chompRight(filename).s;
             }
+            // в случае английской версии страницы добавлям в начало префикс en/
+            if (filename.indexOf('index.en.md') > -1) {
+                href = 'en' + S(abspath).chompLeft(CONTENT_PATH_PREFIX).chompRight(filename).s;
+            }
+            console.log('href:', href)
             var pageIndex;
             return {
                 title: content.data.title,
