@@ -23,7 +23,7 @@ weight: 10
 
 <br/>
 
-{{<alert icon="car" color="alert5-light" text="Указанные при регистрации ИНН и электронная почта будут использованы для проверки в системе. Просьба удостовериться в корректности введенных данных." close="false">}}
+{{<alert icon="info-circle" color="alert11-light" text="Указанные при регистрации ИНН и электронная почта будут использованы для проверки в системе. Просьба удостовериться в корректности введенных данных." close="false">}}
 
 
 <br/>
@@ -39,6 +39,6 @@ weight: 10
 
 <br/>
 
-{{<btn target="_blank" href="https://my.fesco.com/login" color="warning" icon="external-link-square" text="Войти в личный кабинет">}}
+{{<btn href="https://my.fesco.com/login" color="warning" icon="external-link-square" text="Войти в личный кабинет" target="_blank" >}}
 
 
