@@ -14,8 +14,15 @@ layout: api_doc
 * Проверьте папки "Спам" и "Несрочные".
 * Напишите в чат на сайте.  
 
+{{<alert icon="question-circle" color="alert7-light" text="Что такое ограниченный и полный доступ в личный кабинет" close="false">}}
 
-{{<alert icon="question-circle" color="alert7-light" text="Как получить полный доступ в личный кабинет " close="false">}}
+После регистрации вам предоставляется ограниченный доступ в личный кабинет.
+
+Вам доступны следующие функции:
+
+{{< img name="images/table*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:50%">}}
+
+{{<alert icon="question-circle" color="alert7-light" text="Как получить полный доступ в личный кабинет" close="false">}}
 
 Чтобы получить полный доступ, пожалуйста, обратитесь к <a href="http://www.fesco.ru/contacts/" target="_blank">менеджеру любого офиса</a>. 
 

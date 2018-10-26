@@ -1,11 +1,11 @@
 ---
 date: "2018-03-29T21:54:53-05:00"
-title: "Заявки на перевозку"
+title: "Все о заявках"
 titleEn: "test3"
 tags: ["api", "метод"]
 Description: ""
 type: api_doc
 layout: api_doc
-weight: 2
+weight: 3
 ---
 
