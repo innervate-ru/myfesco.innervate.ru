@@ -2718,7 +2718,7 @@ fieldset[disabled] .btn {
 
 .accordion-struct.panel-group .panel .panel-heading a {
     color: #878787;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
     padding: 10px 20px;
     width: 100%;
     display: block;
@@ -2940,7 +2940,7 @@ input, select {
 
 .accordion-struct.panel-group .panel .panel-heading a {
     color: #878787;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
     padding: 10px 20px;
     width: 100%;
     display: block;
