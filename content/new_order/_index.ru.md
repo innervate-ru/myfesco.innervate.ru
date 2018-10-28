@@ -7,6 +7,6 @@ Description: ""
 type: api_doc
 layout: api_doc
 weight: 2
-menuIcon: flask
+menuIcon: file-text
 ---
 

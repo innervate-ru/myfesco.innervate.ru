@@ -7,6 +7,7 @@ title: "VGM"
 weight: 6
 type: api_doc
 layout: api_doc
+menuIcon: anchor
 ---
 
 
