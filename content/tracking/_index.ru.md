@@ -1,13 +1,13 @@
 ---
 date: "2018-03-29T21:54:53-05:00"
-title: "Отслеживание груза"
+title: "Отслеживание грузай"
 titleEn: "test3"
 tags: ["api", "метод"]
 Description: ""
 type: api_doc
 layout: api_doc
 weight: 3
-menuIcon: map-marker
+menuIcon: compass
 ---
 
 Раздел в разработке.
