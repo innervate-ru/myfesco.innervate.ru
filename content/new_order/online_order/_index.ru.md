@@ -20,25 +20,25 @@ weight: 1
     <div class="row text-inline">
       <div>
        <img src="/img/icon/ico-from-form.png" alt="Иконка">
-        <a href="">
+        <a href="http://kb.innervate.ru/new_order/online_order/from_new_order/">
           Через форму<br>Новая заявка
         </a>
       </div>
       <div>
        <img src="/img/icon/ico-from-calc.png" alt="Иконка">
-        <a href="">
+        <a href="http://kb.innervate.ru/new_order/online_order/from_calculator/">
           Из калькулятора
         </a>
       </div>
       <div>
        <img src="/img/icon/ico-from-copy.png" alt="Иконка">
-        <a href="">
+        <a href="http://kb.innervate.ru/new_order/online_order/copy/">
           Из существующей<br>заявки (копирование)
         </a>
       </div>
       <div>
        <img src="/img/icon/ico-from-template.png" alt="Иконка">
-        <a href="">
+        <a href="http://kb.innervate.ru/new_order/online_order/templates/">
           Из шаблона
         </a>
       </div>
