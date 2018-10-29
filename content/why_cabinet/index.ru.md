@@ -25,3 +25,32 @@ layout: api_doc
 
 
 {{<alert icon="info-circle" color="alert11-light" text="Система личного кабинета my.fesco.com постоянно обновляется и становится удобнее." close="false">}}
+
+  </div>
+    <p>Варианты подачи заявки:</p>
+    <div class="row text-inline">
+      <div>
+       <img src="/img/icon/ico-from-form.png" alt="Иконка">
+        <a href="">
+          Через форму<br>Новая заявка
+        </a>
+      </div>
+      <div>
+       <img src="/img/icon/ico-from-calc.png" alt="Иконка">
+        <a href="">
+          Из калькулятора
+        </a>
+      </div>
+      <div>
+       <img src="/img/icon/ico-from-copy.png" alt="Иконка">
+        <a href="">
+          Из существующей<br>заявки (копирование)
+        </a>
+      </div>
+      <div>
+       <img src="/img/icon/ico-from-template.png" alt="Иконка">
+        <a href="">
+          Из шаблона
+        </a>
+      </div>
+    </div>
