@@ -3119,12 +3119,20 @@ tr.group, tr.group:hover {
 /* image and text inline */
 
 .text-inline {
+  margin-top: 35px;
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+}
+
+.text-inline > div {
+  flex-basis: 25%;
+}
+
+.text-inline > div:first-child {
+  padding-left: 40px;
 }
 
 .text-inline img {
@@ -3142,7 +3150,17 @@ tr.group, tr.group:hover {
   line-height: 1.4;
 }
 
+@media (max-width:1200px) {
+  .text-inline a {
+    margin-left: 10px;
+    font-size: 13px;
+  }
+}
+
 @media (max-width:768px) {
+  .text-inline > div:first-child {
+    padding: 0;
+  }
   .text-inline > div {
     flex-basis: 50%;
     margin-bottom: 15px;
