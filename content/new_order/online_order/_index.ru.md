@@ -13,7 +13,34 @@ weight: 1
 
 {{<alert icon="info-circle" color="alert11-light" text="Онлайн-заявку дублировать в бумажном формате не нужно. Онлайн-заявка является полноценной заявкой на перевозку." close="false">}}
 
-Варианты подачи заявки:
+<br/>
 
-{{< img name="images/image1*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:50%">}}
+  </div>
+    <p>Варианты подачи заявки:</p>
+    <div class="row text-inline">
+      <div>
+       <img src="/img/icon/ico-from-form.png" alt="Иконка">
+        <a href="">
+          Через форму<br>Новая заявка
+        </a>
+      </div>
+      <div>
+       <img src="/img/icon/ico-from-calc.png" alt="Иконка">
+        <a href="">
+          Из калькулятора
+        </a>
+      </div>
+      <div>
+       <img src="/img/icon/ico-from-copy.png" alt="Иконка">
+        <a href="">
+          Из существующей<br>заявки (копирование)
+        </a>
+      </div>
+      <div>
+       <img src="/img/icon/ico-from-template.png" alt="Иконка">
+        <a href="">
+          Из шаблона
+        </a>
+      </div>
+    </div>
 
