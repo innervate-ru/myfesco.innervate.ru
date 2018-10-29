@@ -21,7 +21,7 @@
 /* 1. Body */
 
 body {
-    background: #364760;
+    background: #1B4576;
     color: #58666e;
     margin: 0;
     line-height: 1.7em;
@@ -99,7 +99,7 @@ body {
 }
 
 .color1-bg {
-    background: #364760;
+    background: #1B4576;
 }
 
 .color2-bg {
@@ -115,7 +115,7 @@ body {
 }
 
 .color5-bg {
-    background: #364760;
+    background: #1B4576;
 }
 
 .color6-bg {
@@ -721,7 +721,7 @@ input, select {
     width: 100%;
     height: 100%;
     z-index: 9999;
-    background: #364760;
+    background: #1B4576;
     opacity: 0.99;
 }
 
@@ -740,7 +740,7 @@ input, select {
 
 #top {
     height: 60px;
-    background: #364760;
+    background: #1B4576;
     color: #fff;
     width: 100%;
     position: fixed;
@@ -934,7 +934,7 @@ input, select {
     top: 60px;
     left: 0;
     font-family: 'Montserrat', sans-serif;
-    background: #364760;
+    background: #1B4576;
     font-size: 14px;
     font-weight: normal;
     z-index: 500;
@@ -1009,7 +1009,7 @@ ol.sidebar-panel li ol {
     margin: 0;
     list-style-type: none;
     padding: 0px;
-    background: #2b394d;
+    background: #1c406d;
     display: none;
 }
 
@@ -1845,7 +1845,7 @@ blockquote.card-quotes .image-wrapper {
 blockquote.card-quotes .image-wrapper img {
     border-radius: 50%;
     width: 100%;
-    border: 3px solid #364760;
+    border: 3px solid #1B4576;
 }
 
 blockquote.card-quotes footer, blockquote.card-quotes small, blockquote.card-quotes .small {
@@ -3069,4 +3069,14 @@ tr.group, tr.group:hover {
     /*display: inline-block;*/
     max-width: 100%;
     height: auto;
+}
+
+/* our styles */
+
+.sidebar {
+    overflow-y: auto;
+}
+
+.content {
+    min-height: 100vh;
 }
