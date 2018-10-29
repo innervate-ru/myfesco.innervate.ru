@@ -943,6 +943,8 @@ input, select {
     height: 100%;
     min-height: 100%;
     overflow-y: auto;
+    top: auto;
+    padding-top: 60px;
 }
 
 .sidebar-panel {
@@ -3146,8 +3148,4 @@ tr.group, tr.group:hover {
     margin-bottom: 15px;
     text-align: center;
   }
-}
-.sidebar {
-    top: auto;
-    padding-top: 60px;
 }
