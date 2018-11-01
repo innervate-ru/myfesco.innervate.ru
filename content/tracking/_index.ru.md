@@ -1,9 +1,5 @@
 ---
-<<<<<<< Updated upstream
-date: "2014-09-29T21:54:53-05:00"
-=======
-date: "2018-10-31"
->>>>>>> Stashed changes
+date: "2018-10-30"
 title: "Отслеживание груза"
 titleEn: "test3"
 tags: ["api", "метод"]
