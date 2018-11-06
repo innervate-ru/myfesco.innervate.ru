@@ -10,3 +10,10 @@ weight: 2
 menuIcon: file-text
 ---
 
+[Как подать заявку](/new_order/online_order/)
+
+[Как заполнять поля заявки](/new_order/fields/)
+
+[Полезные советы](/new_order/useful_tips/)
+
+[Популярные вопросы](/new_order/questions/)

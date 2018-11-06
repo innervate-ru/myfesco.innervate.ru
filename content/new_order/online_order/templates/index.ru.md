@@ -18,7 +18,7 @@ weight: 3
 - нажмите ссылку “Добавить”
 - введите тег "шаблон" и нажмите Enter.
 
-{{< img name="images/screencast1*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:80%">}}
+{{< img name="images/screencast3*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:80%">}}
 <br/>
 
 б) Для того, чтобы создать заявку на основе шаблона:

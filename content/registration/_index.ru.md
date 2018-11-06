@@ -10,3 +10,6 @@ weight: 1
 menuIcon: user
 ---
 
+[Как зарегистрироваться в личном кабинете](/registration/instruction/)
+
+[Популярные вопросы](/registration/questions/)

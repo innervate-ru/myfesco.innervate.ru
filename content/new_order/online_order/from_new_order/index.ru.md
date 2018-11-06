@@ -20,11 +20,11 @@ weight: 1
 - Тип контейнера, 
 - Собственника контейнера (принадлежность);
 
-{{< img name="images/screencast5*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:50%">}} <br/>
+{{< img name="images/screencast8*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:50%">}} <br/>
 г) выберите Ставку, 
 для этого нажмите на кнопку “Выбрать стоимость услуги”, далее нажмите “Выбрать ставку”;
 
-{{< img name="images/screencast7*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:50%">}} <br/>
+{{< img name="images/screencast9*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:50%">}} <br/>
 д) заполните оставшиеся поля; <br/>
 е) нажмите на кнопку “Подать заявку”.
 
