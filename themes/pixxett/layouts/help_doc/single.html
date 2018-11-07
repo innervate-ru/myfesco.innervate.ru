@@ -30,4 +30,9 @@
 </div>
 
 
+{{if .Params.redirectUrl}}
+<script>
+    window.location.href = '{{.Params.redirectUrl}}'
+</script>
+{{end}}
 {{ partial "footer.html" . }}

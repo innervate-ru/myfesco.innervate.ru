@@ -20,4 +20,9 @@
 </div>
 
 {{ partial "api/mobile-sidebar.html" . }}
+{{if .Params.redirectUrl}}
+<script>
+    window.location.href = '{{.Params.redirectUrl}}'
+</script>
+{{end}}
 {{ partial "api/footer.html" . }}
