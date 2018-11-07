@@ -820,6 +820,9 @@ div.drag_bar {
 #pixxett-api .header__brand h1 {
     margin: 0px;
 }
+#pixxett-api .header__brand img {
+    height: 50px;
+}
 #pixxett-api .header__nav {
     -webkit-align-items: center;
     -ms-flex-align: center;

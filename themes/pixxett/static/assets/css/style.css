@@ -21,11 +21,8 @@
 /* 1. Body */
 
 body {
-<<<<<<< Updated upstream
     /*background: #364760;*/
-=======
     background: #2b5fa0;
->>>>>>> Stashed changes
     color: #58666e;
     margin: 0;
     line-height: 1.7em;
@@ -1018,11 +1015,8 @@ ol.sidebar-panel li ol {
     margin: 0;
     list-style-type: none;
     padding: 0px;
-<<<<<<< Updated upstream
-    background: #2b394d;
-=======
+    /*background: #2b394d;*/
     background: #29538d;
->>>>>>> Stashed changes
     display: none;
 }
 
@@ -1257,15 +1251,15 @@ ol.sidebar-panel li ol {
 }
 
 /*.method-area-wrapper .method-area {*/
-    /*background: #fff;*/
-    /*color: #666;*/
-    /*position: relative;*/
-    /*font-size: 14px;*/
-    /*border-radius: 3px;*/
-    /*text-shadow: none;*/
-    /*padding: 12px 20px;*/
-    /*margin-bottom: 25px;*/
-    /*overflow: hidden;*/
+/*background: #fff;*/
+/*color: #666;*/
+/*position: relative;*/
+/*font-size: 14px;*/
+/*border-radius: 3px;*/
+/*text-shadow: none;*/
+/*padding: 12px 20px;*/
+/*margin-bottom: 25px;*/
+/*overflow: hidden;*/
 /*}*/
 
 #documenter_content code, #documenter_content pre {
@@ -3087,104 +3081,106 @@ tr.group, tr.group:hover {
 
 /* table with advantages */
 .method .method-example .advantages-table .table {
-  border: none;
+    border: none;
 }
 
-.advantages-table .table>tbody>tr>td,
-.advantages-table .table>tbody>tr>th,
-.advantages-table .table>tfoot>tr>td,
-.advantages-table .table>tfoot>tr>th,
-.advantages-table .table>thead>tr>td,
-.advantages-table .table>thead>tr>th {
-  padding: 14px 4px;
-  color: #000;
-  border-left: 1px solid #fff;
-  background: #fff;
+.advantages-table .table > tbody > tr > td,
+.advantages-table .table > tbody > tr > th,
+.advantages-table .table > tfoot > tr > td,
+.advantages-table .table > tfoot > tr > th,
+.advantages-table .table > thead > tr > td,
+.advantages-table .table > thead > tr > th {
+    padding: 14px 4px;
+    color: #000;
+    border-left: 1px solid #fff;
+    background: #fff;
 }
 
-.advantages-table .table>thead>tr>th {
-  text-align: center;
-  font-weight: bold;
-  color: #000;
-  border: none;
+.advantages-table .table > thead > tr > th {
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    border: none;
 }
 
 .advantages-table .table-icon {
-  text-align: center;
+    text-align: center;
 }
 
 .advantages-table .table-icon.checked {
-  background-color: #bee4dc;
+    background-color: #bee4dc;
 }
 
 .advantages-table .table-icon.not-checked {
-  background-color: #ffcccc;
+    background-color: #ffcccc;
 }
 
 .advantages-table .table-icon i {
-  color: #17314c;
-  font-size: 17px;
+    color: #17314c;
+    font-size: 17px;
 }
 
 /* image and text inline */
 
 .text-inline {
-  margin-top: 35px;
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+    margin-top: 35px;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .text-inline > div {
-  flex-basis: 25%;
+    flex-basis: 25%;
 }
 
 .text-inline > div:first-child {
-  padding-left: 40px;
+    padding-left: 40px;
 }
 
 .text-inline img {
-  display: inline-block;
-  vertical-align: middle;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .text-inline a {
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 20px;
-  color: #0759a9;
-  text-decoration: underline;
-  font-size: 15px;
-  line-height: 1.4;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+    color: #0759a9;
+    text-decoration: underline;
+    font-size: 15px;
+    line-height: 1.4;
 }
 
-@media (max-width:1200px) {
-  .text-inline a {
-    margin-left: 10px;
-    font-size: 13px;
-  }
+@media (max-width: 1200px) {
+    .text-inline a {
+        margin-left: 10px;
+        font-size: 13px;
+    }
 }
 
-@media (max-width:768px) {
-  .text-inline > div:first-child {
-    padding: 0;
-  }
-  .text-inline > div {
-    flex-basis: 50%;
-    margin-bottom: 15px;
-    text-align: center;
-  }
+@media (max-width: 768px) {
+    .text-inline > div:first-child {
+        padding: 0;
+    }
+
+    .text-inline > div {
+        flex-basis: 50%;
+        margin-bottom: 15px;
+        text-align: center;
+    }
 }
 
-@media (max-width:768px) {
-  .text-inline > div:first-child {
-    padding: 0;
-  }
-  .text-inline > div {
-    flex-basis: 50%;
-    margin-bottom: 15px;
-    text-align: center;
-  }
+@media (max-width: 768px) {
+    .text-inline > div:first-child {
+        padding: 0;
+    }
+
+    .text-inline > div {
+        flex-basis: 50%;
+        margin-bottom: 15px;
+        text-align: center;
+    }
 }
