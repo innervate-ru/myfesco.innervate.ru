@@ -21,7 +21,7 @@
 /* 1. Body */
 
 body {
-    background: #364760;
+    /*background: #364760;*/
     color: #58666e;
     margin: 0;
     line-height: 1.7em;
@@ -1248,17 +1248,17 @@ ol.sidebar-panel li ol {
     margin-bottom: 15px;
 }
 
-.method-area-wrapper .method-area {
-    background: #fff;
-    color: #666;
-    position: relative;
-    font-size: 14px;
-    border-radius: 3px;
-    text-shadow: none;
-    padding: 12px 20px;
-    margin-bottom: 25px;
-    overflow: hidden;
-}
+/*.method-area-wrapper .method-area {*/
+    /*background: #fff;*/
+    /*color: #666;*/
+    /*position: relative;*/
+    /*font-size: 14px;*/
+    /*border-radius: 3px;*/
+    /*text-shadow: none;*/
+    /*padding: 12px 20px;*/
+    /*margin-bottom: 25px;*/
+    /*overflow: hidden;*/
+/*}*/
 
 #documenter_content code, #documenter_content pre {
     font-family: "Courier New", Courier, monospace;
@@ -3156,6 +3156,17 @@ tr.group, tr.group:hover {
   .text-inline a {
     margin-left: 10px;
     font-size: 13px;
+  }
+}
+
+@media (max-width:768px) {
+  .text-inline > div:first-child {
+    padding: 0;
+  }
+  .text-inline > div {
+    flex-basis: 50%;
+    margin-bottom: 15px;
+    text-align: center;
   }
 }
 

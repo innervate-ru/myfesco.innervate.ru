@@ -24,8 +24,8 @@ module.exports = function (grunt) {
         };
 
         var processMDFile = function (abspath, filename) {
+            // console.log(filename, 'abspath:', abspath)
             var content = matter(grunt.file.read(abspath, filename));
-            // console.log(filename, 'content:', content)
             if (content.data.draft) {
                 // don't index draft posts
                 return;

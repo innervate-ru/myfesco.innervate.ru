@@ -1,33 +1,23 @@
-{{ partial "header.html" . }}
-{{ partial "top_navbar.html" . }}
-{{ partial "sidebar.html" . }}
-
-<!-- //////////////////////////////////////////////////////////////////////////// -->
-<!-- START CONTENT -->
-<div class="content">
-    <!-- Start Page Header -->
-    <div class="page-header">
-        <h1 class="title">{{.Title}}</h1>
-        <small>Дата последнего обновления: {{ .Date.Format "2006-01-02" }}</small>
+{{ partial "api/header.html" . }}
+<div id="page">
+    {{ partial "api/top_navbar.html" . }}
+    {{ partial "api/header_service.html" . }}
+    <!-- Section Background -->
+    <div id="background">
+        <div class="background-actual"></div>
     </div>
-    <!-- End Page Header -->
-
-    <!-- START CONTAINER -->
-    <div class="container-widget">
-        <!-- Start Top Stats -->
-        <div class="col-md-12">
-            <div id="documenter_content" class="method-area-wrapper">
-                <div id="documenter-1" class="method">
-                    <div class="method-area">
-                        <div class="method-example">
-                            {{.Content}}
-                        </div>
-                    </div>
-                </div>
+    {{ partial "api/sidebar.html" . }}
+    <!-- End Section Background -->
+    <!-- main Content -->
+    <div id="documenter_content" class="method-area-wrapper">
+        <section id="documenter-1" class="method">
+            <div class="method-area">
+                {{.Content}}
             </div>
-        </div>
+        </section>
+
     </div>
 </div>
 
-
-{{ partial "footer.html" . }}
+{{ partial "api/mobile-sidebar.html" . }}
+{{ partial "api/footer.html" . }}

@@ -1,0 +1,130 @@
+<!--<div id="documenter_sidebar">-->
+    <!--<div id="scrollholder" class="scrollholder">-->
+        <!--<div id="scroll" class="scroll">-->
+            <!--<ol id="documenter_nav">-->
+                <!--<li><a class="current" href="#documenter-1"><i class="fa fa-file-text-o"></i> API Reference</a></li>-->
+                <!--<li><a href="#documenter-2"><i class="fa fa-key"></i> Authentication </a>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<a href="#documenter-3"><i class="fa fa-warning"></i> Errors </a>-->
+                    <!--<ol>-->
+                        <!--<li><a href="#documenter-3-1">Handling errors</a></li>-->
+                    <!--</ol>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<a href="#documenter-4"><i class="fa fa-table"></i> Tables</a>-->
+                    <!--<ol>-->
+                        <!--<li><a href="#documenter-4-1">Default Talbe</a></li>-->
+                        <!--<li><a href="#documenter-4-2">Exampled Rows</a> </li>-->
+                        <!--<li><a href="#documenter-4-3">Bordered Table</a> </li>-->
+                        <!--<li><a href="#documenter-4-4">Contextual Classes</a> </li>-->
+                    <!--</ol>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<a href="#documenter-5"><i class="fa fa-gear"></i> General</a>-->
+                    <!--<ol>-->
+                        <!--<li><a href="#documenter-5-1">Headings</a> </li>-->
+                        <!--<li><a href="#documenter-5-2">Paragraph</a> </li>-->
+                        <!--<li><a href="#documenter-5-3">Inline Text Elements</a> </li>-->
+                        <!--<li><a href="#documenter-5-4">Alignment and Transformation</a> </li>-->
+                        <!--<li><a href="#documenter-5-5">Abbrevations</a> </li>-->
+                        <!--<li><a href="#documenter-5-6">Addresses</a> </li>-->
+                        <!--<li><a href="#documenter-5-7">Unordered and Ordered List</a> </li>-->
+                        <!--<li><a href="#documenter-5-8">Unstyled and Inline list</a></li>-->
+                        <!--<li><a href="#documenter-5-9">Blockquotes</a> </li>-->
+                        <!--<li><a href="#documenter-5-10">Descriptions</a> </li>-->
+                    <!--</ol>-->
+                <!--</li>-->
+            <!--</ol>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+
+
+<!-- //////////////////////////////////////////////////////////////////////////// -->
+{{ $currentNode := . }}
+{{ $showvisitedlinks := .Site.Params.showVisitedLinks }}
+<!-- START SIDEBAR -->
+<div class="sidebar clearfix">
+    <div id="documenter_sidebar">
+        <div id="scrollholder" class="scrollholder">
+            <div id="scroll" class="scroll">
+                {{ $currentPage := . }}
+                <ol id="documenter_nav" class="sidebar-panel nav">
+                    {{range .Site.Home.Sections.ByWeight}}
+                    {{ template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks}}
+                    {{end}}
+                </ol>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- END SIDEBAR -->
+<!-- //////////////////////////////////////////////////////////////////////////// -->
+
+<!-- templates -->
+{{ define "section-tree-nav" }}
+{{ $showvisitedlinks := .showvisitedlinks }}
+{{ $currentNode := .currentnode }}
+{{with .sect}}
+{{if .IsSection}}
+{{safeHTML .Params.head}}
+<li data-nav-id="{{.URL}}" title="{{.Title}}" class="dd-item
+        {{if .IsAncestor $currentNode }}parent{{end}}
+        {{if .Params.alwaysopen}}parent{{end}}
+        ">
+    <a href="{{.RelPermalink}}" class="jquery-off {{if eq .UniqueID $currentNode.UniqueID}}current{{end}}">
+        {{if .Params.menuIcon}}
+        <i class="fa fa-{{.Params.menuIcon}}"></i>
+        {{end}}
+        {{safeHTML .Params.Pre}}{{or .Params.menuTitle .LinkTitle .Title}}{{safeHTML .Params.Post}}
+        {{ if $showvisitedlinks}}
+        <i class="fas read-icon"></i>
+        {{ end }}
+    </a>
+    {{ $numberOfPages := (add (len .Pages) (len .Sections)) }}
+    {{ if ne $numberOfPages 0 }}
+    <ol
+            {{if eq .UniqueID $currentNode.UniqueID}}style="display:block"{{end}}
+            {{if .IsAncestor $currentNode }}style="display:block"{{end}}
+    >
+        {{ $currentNode.Scratch.Set "pages" .Pages }}
+        {{ if .Sections}}
+        {{ $currentNode.Scratch.Set "pages" (.Pages | union .Sections) }}
+        {{end}}
+        {{ $pages := ($currentNode.Scratch.Get "pages") }}
+
+        {{if eq .Site.Params.ordersectionsby "title"}}
+        {{ range $pages.ByTitle }}
+        {{ if and .Params.hidden (not $.showhidden) }}
+        {{else}}
+        {{ template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks }}
+        {{end}}
+        {{ end }}
+        {{else}}
+        {{ range $pages.ByWeight }}
+        {{ if and .Params.hidden (not $.showhidden) }}
+        {{else}}
+        {{ template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks }}
+        {{end}}
+        {{ end }}
+        {{end}}
+    </ol>
+    {{ end }}
+</li>
+{{else}}
+{{ if not .Params.Hidden }}
+<li data-nav-id="{{.URL}}" title="{{.Title}}" class="dd-item">
+    <a href="{{ .RelPermalink}}" class="jquery-off {{if eq .UniqueID $currentNode.UniqueID}}current{{end}}">
+        {{if .Params.menuIcon}}
+        <i class="fa fa-{{.Params.menuIcon}}"></i>
+        {{end}}
+        {{safeHTML .Params.Pre}}{{or .Params.menuTitle .LinkTitle .Title}}{{safeHTML .Params.Post}}
+        {{ if $showvisitedlinks}}<i class="fas fa-check read-icon"></i>{{end}}
+    </a>
+</li>
+{{ end }}
+{{end}}
+{{ end }}
+{{ end }}

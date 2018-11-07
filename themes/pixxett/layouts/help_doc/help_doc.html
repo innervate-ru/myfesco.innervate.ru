@@ -1,0 +1,33 @@
+{{ partial "header.html" . }}
+{{ partial "top_navbar.html" . }}
+{{ partial "sidebar.html" . }}
+
+<!-- //////////////////////////////////////////////////////////////////////////// -->
+<!-- START CONTENT -->
+<div class="content">
+    <!-- Start Page Header -->
+    <div class="page-header">
+        <h1 class="title">{{.Title}}</h1>
+        <small>Дата последнего обновления: {{ .Date.Format "2006-01-02" }}</small>
+    </div>
+    <!-- End Page Header -->
+
+    <!-- START CONTAINER -->
+    <div class="container-widget">
+        <!-- Start Top Stats -->
+        <div class="col-md-12">
+            <div id="documenter_content" class="method-area-wrapper">
+                <div id="documenter-1" class="method">
+                    <div class="method-area">
+                        <div class="method-example">
+                            {{.Content}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{{ partial "footer.html" . }}

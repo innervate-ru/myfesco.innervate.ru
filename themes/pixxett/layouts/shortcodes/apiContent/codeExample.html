@@ -1,0 +1,10 @@
+{{ $lang := .Get "lang"}}
+<!--дефолтное значение ссылки-->
+{{ if not $lang }}
+{{$lang = "json"}}
+{{end}}
+<div class="method-example-part code-{{$lang}} language-{{$lang}} active-code" v-show="lang=='{{$lang}}' || 'json' == '{{$lang}}'">
+    <div class="method-example-endpoint">
+            <pre><code class="language-{{$lang}}">{{.Inner | markdownify}}</code></pre>
+    </div>
+</div>

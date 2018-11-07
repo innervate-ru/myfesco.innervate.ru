@@ -51,8 +51,9 @@ smaller than 760
 		background: none;
 		display: block;
 		position: absolute;
-		width: 100%;
+		width: 260px;
 		z-index: -4;
+		right: 0;
 	}
 	.container-default, .container-widget{margin-left:-20px; margin-right: -20px;}
 	.container-padding, .container-no-padding{margin-left:-40px; margin-right: -40px;}
@@ -161,8 +162,9 @@ smaller than 428
 		background: none;
 		display: block;
 		position: absolute;
-		width: 100%;
+		width: 300px;
 		z-index: -4;
+		right: 0;
 	}
 	.topstats li{width: 100%;}
 	#pixxett-api .method .method-area:first-child .method-copy {

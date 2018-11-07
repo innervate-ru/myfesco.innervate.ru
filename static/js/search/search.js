@@ -60,9 +60,7 @@ function renderResults(results) {
     if (!results.length) {
         return;
     }
-
     results.slice(0, 10).forEach(function(hit) {
-        console.log('hit:', hit)
         var $result = $('<li style="list-style: none">');
         $result.append($('<a>', {
             href: hit.href,
