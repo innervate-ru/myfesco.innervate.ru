@@ -1188,7 +1188,8 @@ ol.sidebar-panel li ol {
     padding-right: 15px;
     padding-top: 80px;
     margin-left: 250px;
-    background: #e8ebf1;
+    /*background: #e8ebf1;*/
+    background: white;
     overflow: hidden;
     min-height: 100vh;
 }
