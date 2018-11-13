@@ -4,8 +4,8 @@ title: "Закрывающие документы и акты-сверки"
 titleEn: "test3"
 tags: ["api", "метод"]
 Description: ""
-type: api_doc
-layout: api_doc
+type: help_doc
+layout: help_doc
 weight: 7
 menuIcon: print
 ---

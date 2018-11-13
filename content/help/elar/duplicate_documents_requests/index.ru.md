@@ -4,8 +4,8 @@ title: "Запрос дубликатов документов"
 titleEn: "test3"
 tags: ["api", "метод"]
 Description: ""
-type: api_doc
-layout: api_doc
+type: help_doc
+layout: help_doc
 weight: 7
 ---
 
