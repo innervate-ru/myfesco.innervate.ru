@@ -1251,17 +1251,17 @@ ol.sidebar-panel li ol {
     margin-bottom: 15px;
 }
 
-/*.method-area-wrapper .method-area {*/
-/*background: #fff;*/
-/*color: #666;*/
-/*position: relative;*/
-/*font-size: 14px;*/
-/*border-radius: 3px;*/
-/*text-shadow: none;*/
-/*padding: 12px 20px;*/
-/*margin-bottom: 25px;*/
-/*overflow: hidden;*/
-/*}*/
+.method-area-wrapper .method-area {
+    background: #fff;
+    color: #666;
+    position: relative;
+    font-size: 14px;
+    border-radius: 3px;
+    text-shadow: none;
+    padding: 12px 20px;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
 
 #documenter_content code, #documenter_content pre {
     font-family: "Courier New", Courier, monospace;
