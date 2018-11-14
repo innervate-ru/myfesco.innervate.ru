@@ -11,7 +11,7 @@ weight: 10
 ---
 
 
-а) перейдите по  <a href="https://my.fesco.com/registration" target="_blank">ссылке</a>   и заполните **форму регистрации**; <br/>
+а) зайдите на <a href="https://my.fesco.com/registration" target="_blank">форму регистрации</a>   и заполните ее; <br/>
 б) дождитесь получения кода подтверждения регистрации в виде **SMS** с номера FESCO на указанный мобильный номер; <br/>
 в) введите **код подтверждения** в той же форме регистрации; <br/>
 г) на указанный Вами телефон и электронную почту будет выслан **пароль для входа** в систему. <br/>
@@ -20,8 +20,12 @@ weight: 10
 
 
 {{< img name="images/screencast1-1*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:50%">}} 
+<br/>
+Теперь вы можете войти в Личный кабинет! <br/>
 
+{{<btn href="https://my.fesco.com/login" color="warning" icon="external-link-square" text="Войти в личный кабинет" target="_blank" >}}
 
+<br/>
 Вам предоставлен <a href="/registration/questions/" target="_blank"> ограниченный доступ</a>  к Личному кабинету. <br/>
 Чтобы получить полный доступ, пожалуйста, обратитесь к <a href="http://www.fesco.ru/contacts/" target="_blank">менеджеру любого офиса</a>. 
 
@@ -30,8 +34,6 @@ weight: 10
 * Подписанный договор на перевозку
 * Подписанное приложение для работы в ЛК (запросить можно у Вашего менеджера)
 
-Теперь вы можете войти в Личный кабинет! <br/>
 
-{{<btn href="https://my.fesco.com/login" color="warning" icon="external-link-square" text="Войти в личный кабинет" target="_blank" >}}
 
 
