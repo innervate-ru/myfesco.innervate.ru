@@ -9,6 +9,7 @@ layout: help_doc
 weight: 7
 ---
 
+а) **Зайдите в раздел** <a href="https://my.fesco.com/archive/reconciliation-report-requests" target="_blank">Запросы актов сверки </a> и нажмите на кнопку "Новый запрос" или оранжевый "плюсик" .
 
 {{< img name="images/123*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:90%">}} 
 

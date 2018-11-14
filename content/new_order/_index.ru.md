@@ -14,6 +14,4 @@ menuIcon: file-text
 
 [Как заполнять поля заявки](/new_order/fields/)
 
-[Полезные советы](/new_order/useful_tips/)
-
 [Популярные вопросы](/new_order/questions/)

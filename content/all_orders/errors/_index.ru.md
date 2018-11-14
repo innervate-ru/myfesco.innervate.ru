@@ -6,7 +6,7 @@ tags: ["api", "метод"]
 Description: ""
 type: help_doc
 layout: help_doc
-weight: 10
+weight: 4
 ---
 
 Раздел в разработке.
