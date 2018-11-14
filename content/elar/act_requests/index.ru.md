@@ -22,7 +22,7 @@ weight: 7
 * Укажите период сверки;
 * Укажите комментарий. 
 
-{{< img name="images/screencast2018*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:90%">}} 
+{{< gif name="images/screencast2018*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:90%">}}
 
 {{<alert icon="info-circle" color="alert1-light" text="В случае необходимости предварительной сверки (обмен документами по электронной почте без последующей отправки оригиналов документов) – пожалуйста, укажите соответствующий комментарий." close="false">}}
 <br/>
@@ -35,7 +35,9 @@ weight: 7
 * адрес доставки оригиналов документов;
 * способ доставки оригиналов документов.
 
-{{< img name="images/screencast-min*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:70%">}} <br/>
+{{< gif name="images/screencast-min*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:90%">}}
+
+<br/>
 {{<alert icon="info-circle" color="alert1-light" text="Контактные данные нужны для оперативного решения вопросов в процессе проведения сверки бухгалтерией." close="false">}}
 
 {{<alert icon="clock-o" color="alert11-light" text="Среднее время обработки запроса на предоставление акта сверки — 3 рабочих дня. Если вы не получили документ по email в течение 5 рабочих дней — пожалуйста, свяжитесь с нами повторно." close="false">}}

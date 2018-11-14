@@ -23,6 +23,8 @@ menuIcon: print
 В колонке **Пакет документов** вы можете скачать весь пакет документов, относящихся к данному документу. 
 
 {{< img name="screen123*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:90%">}} 
+
+
 <br/>
 #### Фильтр или поиск
 
@@ -30,4 +32,4 @@ menuIcon: print
 <br/>
 Выберите параметры, прокрутите вниз и нажмите кнопку “Найти”.
 
-{{< img name="screencast12-min*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:90%">}}
+{{< gif name="screencast12-min*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:90%">}}
