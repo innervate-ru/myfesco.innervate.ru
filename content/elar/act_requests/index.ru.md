@@ -35,7 +35,7 @@ weight: 7
 * адрес доставки оригиналов документов;
 * способ доставки оригиналов документов.
 
-{{< gif name="images/screencast-min*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:90%">}}
+{{< gif name="images/screencast-min*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:70%">}}
 
 <br/>
 {{<alert icon="info-circle" color="alert1-light" text="Контактные данные нужны для оперативного решения вопросов в процессе проведения сверки бухгалтерией." close="false">}}
