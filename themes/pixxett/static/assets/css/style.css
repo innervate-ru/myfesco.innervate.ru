@@ -3083,6 +3083,7 @@ tr.group, tr.group:hover {
 /* table with advantages */
 .method .method-example .advantages-table .table {
     border: none;
+    margin: 0 0 20px;
 }
 
 .advantages-table .table > tbody > tr > td,
@@ -3137,7 +3138,7 @@ tr.group, tr.group:hover {
 }
 
 .text-inline > div:first-child {
-    padding-left: 40px;
+    padding-left: 30px;
 }
 
 .text-inline img {
@@ -3153,6 +3154,37 @@ tr.group, tr.group:hover {
     text-decoration: underline;
     font-size: 15px;
     line-height: 1.4;
+}
+
+.why-cabinet {
+  margin-top: 45px;
+}
+
+.why-cabinet__block {
+  display: inline-block;
+  width: 49%;
+  vertical-align: bottom;
+  margin-bottom: 50px;
+}
+
+.why-cabinet__block:nth-child(2n+1) {
+  padding-left: 35px;
+}
+
+.why-cabinet__block .why-cabinet__icon {
+  display: inline-block;
+  vertical-align: bottom;
+  text-align: center;
+  width: 35px;
+  margin-right: 24px;
+}
+
+.why-cabinet__block .why-cabinet__text {
+  display: inline-block;
+  vertical-align: middle;
+  width: calc(100% - 65px);
+  color: #000;
+  line-height: 1.4;
 }
 
 @media (max-width: 1200px) {
@@ -3172,16 +3204,13 @@ tr.group, tr.group:hover {
         margin-bottom: 15px;
         text-align: center;
     }
-}
 
-@media (max-width: 768px) {
-    .text-inline > div:first-child {
-        padding: 0;
+    .why-cabinet__block {
+      width: 100%;
+      margin-bottom: 25px;
     }
 
-    .text-inline > div {
-        flex-basis: 50%;
-        margin-bottom: 15px;
-        text-align: center;
+    .why-cabinet__block:nth-child(2n+1) {
+      padding-left: 0;
     }
 }
