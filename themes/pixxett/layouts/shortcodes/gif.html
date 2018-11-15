@@ -6,15 +6,17 @@
         {{ range . }}
             {{ $mediaType := printf "%s" .MediaType }}
             {{ $link := .RelPermalink }}
-            {{ with (eq $mediaType "video/webm") }}
-                <source src="{{ $link }}" type="video/webm">
-            {{ end }}
-            {{ with (eq $mediaType "video/mp4") }}
-                <source src="{{ $link }}" type="video/mp4">
-            {{ end }}
-            {{ with (eq $mediaType "image/gif") }}
-                <img src="{{ $link }}"/>
-            {{ end }}
+            {{ if (eq $mediaType "video/webm") }}<source src="{{ $link }}" type="video/webm"/>{{ end }}
+        {{ end }}
+        {{ range . }}
+            {{ $mediaType := printf "%s" .MediaType }}
+            {{ $link := .RelPermalink }}
+            {{ if (eq $mediaType "video/mp4") }}<source src="{{ $link }}" type="video/mp4"/>{{ end }}
+        {{ end }}
+        {{ range . }}
+            {{ $mediaType := printf "%s" .MediaType }}
+            {{ $link := .RelPermalink }}
+            {{ if (eq $mediaType "image/gif") }}<img src="{{ $link }}"/>{{ end }}
         {{ end }}
         </video>
     {{ end }}
