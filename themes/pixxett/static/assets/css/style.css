@@ -3187,6 +3187,30 @@ tr.group, tr.group:hover {
   line-height: 1.4;
 }
 
+.content.mainpage {
+  margin-left: 0;
+  padding: 60px 0 0 0;
+}
+
+.mainpage__rigth-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  height: calc(100vh - 60px);
+  width: 100%;
+}
+
+.mainpage__button {
+  margin-top: 70px;
+}
+
+.mainpage__button-text {
+  display: block;
+  margin-top: 19px;
+  text-decoration: none;
+  color: #000;
+}
+
 @media (max-width: 1200px) {
     .text-inline a {
         margin-left: 10px;

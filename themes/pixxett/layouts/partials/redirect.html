@@ -1,0 +1,7 @@
+{{$redirect := .Params.redirect}}
+
+{{if $redirect}}
+<script>
+    window.location.replace("{{$redirect}}")
+</script>
+{{end}}
