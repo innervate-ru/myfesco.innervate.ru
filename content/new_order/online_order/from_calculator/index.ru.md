@@ -19,14 +19,15 @@ weight: 2
 
 и нажмите на кнопку "Стоимость услуги";
 
-{{< img name="images/screencast10*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:90%">}} <br/>
+{{< gif name="images/screencast10*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:90%">}} <br/>
+
 в) выберите ставку и нажмите кнопку “Подать заявку” 
 <br/>
 <br/>
 {{<alert icon="filter" color="alert1-light" text="Вы можете отфильтровать ставки по Пункту назначения, Месту таможенной очистки или Валюте ставки" close="false">}} 
 
 
-{{< img name="images/screencast11*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:90%">}}
+{{< gif name="images/screencast11*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:90%">}}
 <br/>
 г) заполните оставшиеся поля и нажмите “Подать заявку”.
 

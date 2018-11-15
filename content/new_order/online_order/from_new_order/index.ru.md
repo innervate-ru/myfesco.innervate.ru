@@ -12,7 +12,8 @@ weight: 1
 а) зайдите на страницу <a href="https://my.fesco.com/requests" target="_blank">“Мои заявки”</a>   и нажмите оранжевую кнопку “Новая заявка”; <br/>
 б) выберите вариант подачи заявки — Новая заявка;
 
-{{< img name="images/screencast2*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:70%">}} <br/>
+{{< gif name="images/screencast2*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:70%">}} <br/>
+
 в) выберите начальные поля
 
 - Плановая дата отгрузки, 
@@ -20,11 +21,13 @@ weight: 1
 - Тип контейнера, 
 - Собственника контейнера (принадлежность);
 
-{{< img name="images/screencast8*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:50%">}} <br/>
+{{< gif name="images/screencast8*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:50%">}} <br/>
+
 г) выберите Ставку, 
 для этого нажмите на кнопку “Выбрать стоимость услуги”, далее нажмите “Выбрать ставку”;
 
-{{< img name="images/screencast9*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:50%">}} <br/>
+{{< gif name="images/screencast9*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:50%">}} <br/>
+
 д) заполните оставшиеся поля и нажмите на “Подать заявку”. <br/>
 
 {{<alert icon="envelope" color="alert8-light" text="После отправки заявки вам будет отправлено уведомление с деталями заявки на электронный адрес. По желанию вы можете продолжать переписку, нажимая ОТВЕТИТЬ  на письмо заявки." close="false">}} 
