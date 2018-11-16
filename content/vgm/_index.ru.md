@@ -19,7 +19,8 @@ menuIcon: anchor
 
 а) Войдите в <a href="https://my.fesco.com/vgm" target="_blank">Раздел VGM </a> <br/>
 б) Введите номер букинга и нажмите кнопку "Найти"
-{{< img name="images/1*" class="img-fluid" style="width:50%">}}
+{{< img name="1*" class="img-fluid" style="width:50%">}}
+<br/>
 в) Введите информацию:
 
 * Номер контейнера
@@ -28,7 +29,7 @@ menuIcon: anchor
 * Компания, производившая взвешивание
 * Подписант
 
-{{< gif name="images/screencast1*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:60%">}}
+{{< gif name="screencast1*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:60%">}}
 
 <br/>
 г) Нажмите "Сохранить"
