@@ -1,5 +1,5 @@
 ---
-date: "2018-11-15"
+date: "2018-11-13"
 title: "VGM"
 titleEn: "test3"
 tags: ["api", "метод"]
@@ -19,8 +19,7 @@ menuIcon: anchor
 
 а) Войдите в <a href="https://my.fesco.com/vgm" target="_blank">Раздел VGM </a> <br/>
 б) Введите номер букинга и нажмите кнопку "Найти"
-{{< img name="1*" class="img-fluid" style="width:50%">}}
-<br/>
+{{< img name="images/1*" class="img-fluid" style="width:50%">}}
 в) Введите информацию:
 
 * Номер контейнера
@@ -29,7 +28,6 @@ menuIcon: anchor
 * Компания, производившая взвешивание
 * Подписант
 
-{{< gif name="screencast1*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:60%">}}
+{{< gif name="images/screencast1*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:90%">}}
 
-<br/>
 г) Нажмите "Сохранить"
