@@ -44,7 +44,7 @@
 {{ $showvisitedlinks := .showvisitedlinks }}
 {{ $currentNode := .currentnode }}
 {{with .sect}}
-{{if .IsSection}}
+{{if and .IsSection (not .Params.hiddenInMenu)}}
 {{safeHTML .Params.head}}
 <li data-nav-id="{{.URL}}" title="{{.Title}}" class="dd-item
         {{if .IsAncestor $currentNode }}parent{{end}}
@@ -73,14 +73,14 @@
 
         {{if eq .Site.Params.ordersectionsby "title"}}
         {{ range $pages.ByTitle }}
-        {{ if and .Params.hidden (not $.showhidden) }}
+        {{ if .Params.hiddenInMenu }}
         {{else}}
         {{ template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks }}
         {{end}}
         {{ end }}
         {{else}}
         {{ range $pages.ByWeight }}
-        {{ if and .Params.hidden (not $.showhidden) }}
+        {{ if .Params.hiddenInMenu }}
         {{else}}
         {{ template "section-tree-nav" dict "sect" . "currentnode" $currentNode "showvisitedlinks" $showvisitedlinks }}
         {{end}}
@@ -90,7 +90,7 @@
     {{ end }}
 </li>
 {{else}}
-{{ if not .Params.Hidden }}
+{{ if not .Params.hiddenInMenu }}
 <li data-nav-id="{{.URL}}" title="{{.Title}}" class="dd-item">
     <a href="{{ .RelPermalink}}" class="jquery-off {{if eq .UniqueID $currentNode.UniqueID}}current{{end}}">
         {{if .Params.menuIcon}}
