@@ -1,13 +1,12 @@
 ---
 date: "2018-10-30"
-title: "Загрузка документов"
+title: "Популярные вопросы"
 titleEn: "test3"
 tags: ["api", "метод"]
 Description: ""
 type: help_doc
 layout: help_doc
-weight: 4
-menuIcon: archive
+weight: 6
 ---
 
 Раздел в разработке.

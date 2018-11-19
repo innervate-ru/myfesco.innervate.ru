@@ -8,6 +8,7 @@ type: help_doc
 layout: help_doc
 weight: 4
 showLikeBtn: true
+hiddenInMenu: true
 ---
 
                             <blockquote>
