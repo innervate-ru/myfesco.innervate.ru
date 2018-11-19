@@ -10,19 +10,67 @@ weight: 4
 showLikeBtn: true
 ---
 
+                            <blockquote>
+<p>Личный кабинет — это индивидуальное цифровое пространство для отслеживания ваших грузоперевозок.</p>
+</blockquote>
 
+<p style="color: #000">Возможности личного кабинета:</p>
 
-> Личный кабинет — это индивидуальное цифровое пространство для отслеживания ваших грузоперевозок.
-
-Возможности личного кабинета:
-
-* (иконка) Подача заявки в электронном виде, без дублирования в бумажном формате (+ возможность сохранять шаблоны)
-* (иконка) Доступ к сквозному и линейному коносаменту
-* (иконка) Доступ к счетам по каждой перевозке и % оплаты
-* (иконка) Контроль получения TLX-RELEASE от отправителя
-* (иконка) Местонахождение груза, даты отгрузки на этапах перевозки
-* (иконка) Информация о проведенном взвешивании, досмотре, МИДК
-* (иконка) Загрузка документов для оформления ВТТ, контроль сроков оформления
-
-
-{{<alert icon="info-circle" color="alert11-light" text="Система личного кабинета my.fesco.com постоянно обновляется и становится удобнее." close="false">}}
+<div class="why-cabinet">
+  <div class="why-cabinet__block">
+    <div class="why-cabinet__icon">
+      <img src="/img/icon/whycabinet-icon1.png" alt="Иконка">
+    </div>
+    <span class="why-cabinet__text">
+      Подача заявки в электронном виде,<br>без дублирования в бумажном формате<br>(+ возможность сохранять шаблоны)
+    </span>
+  </div>
+  <div class="why-cabinet__block">
+    <div class="why-cabinet__icon">
+      <img src="/img/icon/whycabinet-icon2.png" alt="Иконка">
+    </div>
+    <span class="why-cabinet__text">
+      Доступ к сквозному и линейному<br>коносаменту
+    </span>
+  </div>
+  <div class="why-cabinet__block">
+    <div class="why-cabinet__icon">
+      <img src="/img/icon/whycabinet-icon3.png" alt="Иконка">
+    </div>
+    <span class="why-cabinet__text">
+      Доступ к счетам по каждой<br>перевозке и % оплаты
+    </span>
+  </div>
+  <div class="why-cabinet__block">
+    <div class="why-cabinet__icon">
+      <img src="/img/icon/whycabinet-icon4.png" alt="Иконка">
+    </div>
+    <span class="why-cabinet__text">
+      Контроль получения TLX-RELEASE<br>от отправителя
+    </span>
+  </div>
+  <div class="why-cabinet__block">
+    <div class="why-cabinet__icon">
+      <img src="/img/icon/whycabinet-icon5.png" alt="Иконка">
+    </div>
+    <span class="why-cabinet__text">
+      Местонахождение груза, даты<br>отгрузки на этапах перевозки
+    </span>
+  </div>
+  <div class="why-cabinet__block">
+    <div class="why-cabinet__icon">
+      <img src="/img/icon/whycabinet-icon6.png" alt="Иконка">
+    </div>
+    <span class="why-cabinet__text">
+      Информация о проведенном<br>взвешивании, досмотре, МИДК
+    </span>
+  </div>
+  <div class="why-cabinet__block">
+    <div class="why-cabinet__icon">
+      <img src="/img/icon/whycabinet-icon7.png" alt="Иконка">
+    </div>
+    <span class="why-cabinet__text">
+      Загрузка документов для оформления<br>ВТТ, контроль сроков оформления
+    </span>
+  </div>
+</div>
