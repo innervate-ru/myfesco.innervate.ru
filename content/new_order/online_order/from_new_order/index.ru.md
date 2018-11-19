@@ -7,6 +7,7 @@ Description: ""
 type: help_doc
 layout: help_doc
 weight: 1
+showLikeBtn: true
 ---
 
 а) зайдите на страницу <a href="https://my.fesco.com/requests" target="_blank">“Мои заявки”</a>   и нажмите оранжевую кнопку “Новая заявка”; <br/>

@@ -7,6 +7,7 @@ Description: ""
 type: help_doc
 layout: help_doc
 weight: 2
+showLikeBtn: true
 ---
 
 {{<alert icon="info-circle" color="alert11-light" text="Теги позволяют быстро найти заявку среди других." close="false">}}

@@ -7,6 +7,7 @@ Description: ""
 type: help_doc
 layout: help_doc
 weight: 2
+showLikeBtn: true
 ---
 
 а) зайдите на страницу <a href="https://my.fesco.com/offers" target="_blank">“Калькулятор стоимости услуги”</a>; <br/>

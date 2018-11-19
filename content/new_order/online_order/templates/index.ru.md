@@ -7,6 +7,7 @@ Description: ""
 type: help_doc
 layout: help_doc
 weight: 3
+showLikeBtn: true
 --- 
 
 {{<alert icon="hand-o-up" color="alert11-light" text="Используйте эту функцию, если ваши перевозки часто повторяются, и данные по ним идентичны или похожи." close="false">}} 

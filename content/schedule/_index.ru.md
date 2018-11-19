@@ -8,6 +8,7 @@ type: help_doc
 layout: help_doc
 weight: 9
 menuIcon: calendar
+showLikeBtn: true
 ---
 
 Чтобы посмотреть расписание:

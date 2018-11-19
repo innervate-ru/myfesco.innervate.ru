@@ -7,6 +7,7 @@ Description: ""
 type: help_doc
 layout: help_doc
 weight: 7
+showLikeBtn: true
 ---
 
 а) **Зайдите в раздел** <a href="https://my.fesco.com/archive/reconciliation-report-requests" target="_blank">Запросы актов сверки </a> и нажмите на кнопку "Новый запрос" или оранжевый "плюсик" .

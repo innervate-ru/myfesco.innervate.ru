@@ -6,7 +6,7 @@ tags: ["api", "метод"]
 Description: ""
 type: help_doc
 layout: help_doc
-
+showLikeBtn: true
 ---
 
 {{<alert icon="question-circle" color="alert7-light" text="Если пароль от личного кабинета вам на почту не пришел " close="false">}} 
