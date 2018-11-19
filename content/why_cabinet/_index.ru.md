@@ -1,11 +1,13 @@
 ---
-Categories: []
-Description: ""
-Tags: []
-date: "2014-09-29T21:54:53-05:00"
+date: "2018-10-30"
 title: "Зачем нужен личный кабинет?"
-weight: 7
-
+titleEn: "test3"
+tags: ["api", "метод"]
+Description: ""
+type: help_doc
+layout: help_doc
+weight: 4
+showLikeBtn: true
 ---
 
 
