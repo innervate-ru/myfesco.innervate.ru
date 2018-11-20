@@ -39,12 +39,14 @@ module.exports = function (grunt) {
                 href = 'en' + S(abspath).chompLeft(CONTENT_PATH_PREFIX).chompRight(filename).s;
             }
             var pageIndex;
+            // убираем в контенте url'ы из ссылок вида [Популярные вопросы](/registration/questions/)
+            var modifiedContent = content.content.replace(/\[([^\[\]]+)\]\(([^)]+)/g, "\$1")
             return {
                 title: content.data.title,
                 categories: content.data.categories,
                 tags: content.data.tags,
                 href: href,
-                content: S(content.content).trim().stripTags().stripPunctuation().s
+                content: S(modifiedContent).trim().stripTags().stripPunctuation().s
             };
         };
 
