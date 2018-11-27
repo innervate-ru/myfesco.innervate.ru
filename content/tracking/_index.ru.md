@@ -7,7 +7,7 @@ Description: ""
 type: help_doc
 layout: help_doc
 weight: 3
-menuIcon: compass
+menuIcon: location-arrow
 ---
 
 Раздел в разработке.

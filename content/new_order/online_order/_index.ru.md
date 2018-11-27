@@ -9,14 +9,11 @@ layout: help_doc
 weight: 1
 ---
 
-## Как подать онлайн-заявку
-
-{{<alert icon="info-circle" color="alert11-light" text="Онлайн-заявку дублировать в бумажном формате не нужно. Онлайн-заявка является полноценной заявкой на перевозку." close="false">}}
-
 <br/>
 
+##### Варианты подачи онлайн-заявки:
+
   </div>
-    <p>Варианты подачи заявки:</p>
     <div class="row text-inline">
       <div>
        <img src="/img/icon/ico-from-form.png" alt="Иконка">
@@ -43,4 +40,7 @@ weight: 1
         </a>
       </div>
     </div>
+
+<br/>
+{{<alert icon="info-circle" color="alert1-light" text="Онлайн-заявку дублировать в бумажном формате не нужно. Онлайн-заявка является полноценной заявкой на перевозку." close="false">}}
 

@@ -7,11 +7,13 @@ Description: ""
 type: help_doc
 layout: help_doc
 weight: 7
-menuIcon: print
+menuIcon: archive
 showLikeBtn: true
 ---
 
-{{<alert icon="info-circle" color="alert4-light" text="В разделе Электронный архив вы можете посмотреть все закрывающие документы по вашим перевозкам, а также отправить запросы на акты сверки и дубликаты документов." close="false">}} <br/>
+<div class="pixxett-alert pixxett-alert-icon alert4-light">
+  <i class="fa fa-info-circle"></i>В разделе <b>Электронный архив</b> вы можете посмотреть все закрывающие документы по вашим перевозкам, а также отправить запросы на акты сверки и дубликаты документов.
+</div>
 
 #### Список документов
 

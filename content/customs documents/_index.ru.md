@@ -7,11 +7,13 @@ Description: ""
 type: help_doc
 layout: help_doc
 weight: 4
-menuIcon: archive
+menuIcon: folder-open
 showLikeBtn: true
 ---
 
-{{<alert icon="info-circle" color="alert11-light" text="Раздел «Таможенное декларирование» позволяет загрузить и отправить документы для предварительного таможенного декларирования, а также проконтролировать сроки оформления документов." close="false">}}
+<div class="pixxett-alert pixxett-alert-icon alert4-light">
+  <i class="fa fa-info-circle"></i><b>Раздел Таможенное декларирование</b> позволяет загрузить и отправить документы для предварительного таможенного декларирования, а также проконтролировать сроки оформления документов.
+</div>
 
 ##### Список обязательных для отправки документов
 
