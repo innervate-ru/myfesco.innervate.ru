@@ -36,11 +36,21 @@ showLikeBtn: true
 Если груз подлежит охране, то вы увидите соответствующий текст в списке типов грузов по ЕТСНГ:
 {{< img name="images/3*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:50%">}}
   {{</accordionItem>}}
-    {{<accordionItem isOpen="false" idNumber="5" title="Поле «Дополнительные комментарии»">}}
+    {{<accordionItem isOpen="false" idNumber="5" title="Поле «Дополнительные требования»">}}
     В этом поле указывается важная дополнительная информация.<br/>
 Например, доставка до склада получателя, адрес и его контакты.
   {{</accordionItem>}}
    {{<accordionItem isOpen="false" idNumber="6" title="Поле «Данные для графы коносамента Извещать»">}}
     Укажите Ваши контакты, либо контакты вашего брокера.
+  {{</accordionItem>}}
+  {{<accordionItem isOpen="false" idNumber="7" title="Поле «Номер заказа»">}}
+    При заполнении данного поля в заявке в ЛК будет фигурировать Ваш внутренний номер заявки.
+<br/>
+  {{</accordionItem>}}
+    {{<accordionItem isOpen="false" idNumber="8" title="Поле «Тег»">}}
+    Тегирование заявок позволяет проще находить заявки среди других. 
+Присвойте заявке тег, и позже вы сможете по этому тегу найти ее.
+{{< img name="images/1*" class="img-fluid" style="width:50%">}}
+<br/>
   {{</accordionItem>}}
 {{</accordion>}}

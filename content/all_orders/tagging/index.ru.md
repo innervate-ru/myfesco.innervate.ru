@@ -10,7 +10,7 @@ weight: 2
 showLikeBtn: true
 ---
 
-{{<alert icon="info-circle" color="alert11-light" text="Теги позволяют быстро найти заявку среди других." close="false">}}
+{{<alert icon="info-circle" color="alert11-light" text="Теги позволяют проще найти заявку среди других." close="false">}}
 
 
 ##### Чтобы поставить тег или создать новый тег у заявки:

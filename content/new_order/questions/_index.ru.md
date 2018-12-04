@@ -23,3 +23,8 @@ weight: 13
 {{<alert icon="question-circle" color="alert7-light" text="Кого указывать получателем на станции назначения?" close="false">}} 
 
 В случае вывоза FESCO, указывается “агент ФИТ”.
+<br/>
+<br/>
+{{<alert icon="question-circle" color="alert7-light" text="Что указывать в поле Номер заказа?" close="false">}} 
+
+При заполнении данного поля в заявке в ЛК будет фигурировать Ваш внутренний номер заявки.
