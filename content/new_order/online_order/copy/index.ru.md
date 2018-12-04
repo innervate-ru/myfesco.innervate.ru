@@ -20,7 +20,7 @@ showLikeBtn: true
 {{< gif name="images/screencast2*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:80%">}}
 <br/>
 
-в) Заполните все поля и нажмите на кнопку “Подать заявку”.
+в) Заполните поля, * помечены поля обязательные к заполнению, и нажмите на кнопку “Подать заявку”.
 
 
 <div class="pixxett-alert pixxett-alert-icon alert8-light">
