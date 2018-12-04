@@ -7,7 +7,7 @@ Description: ""
 type: help_doc
 layout: help_doc
 weight: 10
-showLikeBtn: true
+showLikeBtn: false
 ---
 
 
@@ -38,3 +38,17 @@ showLikeBtn: true
 * Подписанный договор на перевозку
 * Подписанное приложение для работы в ЛК (запросить можно у Вашего менеджера)
 
+<div class="see-also">
+  <p class="see-also_title">Смотрите также</p>
+  <ul class="see-also_list">
+    <li>
+      <a href="#">Если пароль от личного кабинета на почту не пришел</a>
+    </li>
+    <li>
+      <a href="#">Что такое ограниченный и полный доступ в личный кабинет</a>
+    </li>
+    <li>
+      <a href="#">Как получить полный доступ в личный кабинет</a>
+    </li>
+  </ul>
+</div>

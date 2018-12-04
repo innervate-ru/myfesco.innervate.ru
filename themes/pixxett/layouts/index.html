@@ -1,76 +1,60 @@
 {{ partial "header.html" . }}
 {{ partial "top_navbar.html" . }}
-<!--{{ partial "sidebar.html" . }}-->
+{{ partial "sidebar.html" . }}
 
 <div class="content mainpage">
     <div class="row">
-        <div class="col-md-5 col-xs-12 mainpage__buttons">
-            <div class="col-xs-6 text-center mainpage__button">
-                <a href="/registration/">
-                    <img src="/img/icon/mainpage-icon1.png" alt="" class="mainpage__button-icon">
-                    <span class="mainpage__button-text">
-						Регистрация
-					</span>
-                </a>
-            </div>
-            <div class="col-xs-6 text-center mainpage__button">
-                <a href="/new_order/">
-                    <img src="/img/icon/mainpage-icon2.png" alt="" class="mainpage__button-icon">
-                    <span class="mainpage__button-text">
-						Новая заявка
-					</span>
-                </a>
-            </div>
-            <div class="clearfix"></div>
-            <div class="col-xs-6 text-center mainpage__button">
-                <a href="/all_orders/">
-                    <img src="/img/icon/mainpage-icon3.png" alt="" class="mainpage__button-icon">
-                    <span class="mainpage__button-text">
-						Все о заявках
-					</span>
-                </a>
-            </div>
-            <div class="col-xs-6 text-center mainpage__button">
-                <a href="/tracking/">
-                    <img src="/img/icon/mainpage-icon4.png" alt="" class="mainpage__button-icon">
-                    <span class="mainpage__button-text">
-						Отслеживание груза
-					</span>
-                </a>
-            </div>
-            <div class="clearfix"></div>
-            <div class="col-xs-6 text-center mainpage__button">
-                <a href="/vgm/">
-                    <img src="/img/icon/mainpage-icon5.png" alt="" class="mainpage__button-icon">
-                    <span class="mainpage__button-text">
-						VGM
-					</span>
-                </a>
-            </div>
-            <div class="col-xs-6 text-center mainpage__button">
-                <a href="/customs-documents/">
-                    <img src="/img/icon/mainpage-icon6.png" alt="" class="mainpage__button-icon">
-                    <span class="mainpage__button-text">
-						Загрузка документов
-					</span>
-                </a>
-            </div>
-            <div class="clearfix"></div>
-            <div class="col-xs-6 text-center mainpage__button">
-                <a href="/elar/">
-                    <img src="/img/icon/mainpage-icon7.png" alt="" class="mainpage__button-icon">
-                    <span class="mainpage__button-text">
-						Электронный архив
-					</span>
-                </a>
-            </div>
-            <div class="col-xs-6 text-center mainpage__button">
-                <a href="/schedule/">
-                    <img src="/img/icon/mainpage-icon8.png" alt="" class="mainpage__button-icon">
-                    <span class="mainpage__button-text">
-						Расписание
-					</span>
-                </a>
+        <div class="col-md-5 col-xs-12">
+            <div class="col-xs-12 mainpage__block">
+                <h2 class="mainpage__title">
+                    Управляйте вашими перевозками в личном кабинете
+                </h2>
+                <ul class="mainpage__menu-list">
+                    <li>
+                        <p>
+                            <a href="/registration/">Зарегистрируйтесь</a> в личном кабинете
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a href="https://my.fesco.com/offers">Рассчитайте стоимость</a> и сроки перевозки с помощью калькулятора
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a href="/new_order/online_order/">Подайте заявку</a> на перевозку онлайн с возможностью сохранять шаблоны
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Скачайте счет по каждой перевозке
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a href="/tracking/">Отслеживайте перевозку</a> в личном кабинете:<br>
+                            — слежение за местонахождением груза<br>
+                            — получение дат отгрузки на этапах перевозки<br>
+                            — контроль получения TLX-RELEASE от отправителя<br>
+                            — получение информации о проведенном взвешивании, досмотре, МИДК
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a href="/customs-documents/">Загрузите документы</a> для предварительного таможенного оформления и контролируйте сроки оформления.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a href="/elar/">Получите закрывающие документы</a> и акты сверки.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a href="/excel/">Сгенерируйте и скачайте в Excel</a> данные терминального слежения
+                        </p>
+                    </li>
+                </ul>
             </div>
         </div>
         <div class="col-md-7 hidden-xs hidden-sm">
@@ -79,6 +63,85 @@
         </div>
     </div>
 </div>
+
+
+<!--<div class="content mainpage">-->
+    <!--<div class="row">-->
+        <!--<div class="col-md-5 col-xs-12 mainpage__buttons">-->
+            <!--<div class="col-xs-6 text-center mainpage__button">-->
+                <!--<a href="/registration/">-->
+                    <!--<img src="/img/icon/mainpage-icon1.png" alt="" class="mainpage__button-icon">-->
+                    <!--<span class="mainpage__button-text">-->
+						<!--Регистрация-->
+					<!--</span>-->
+                <!--</a>-->
+            <!--</div>-->
+            <!--<div class="col-xs-6 text-center mainpage__button">-->
+                <!--<a href="/new_order/">-->
+                    <!--<img src="/img/icon/mainpage-icon2.png" alt="" class="mainpage__button-icon">-->
+                    <!--<span class="mainpage__button-text">-->
+						<!--Новая заявка-->
+					<!--</span>-->
+                <!--</a>-->
+            <!--</div>-->
+            <!--<div class="clearfix"></div>-->
+            <!--<div class="col-xs-6 text-center mainpage__button">-->
+                <!--<a href="/all_orders/">-->
+                    <!--<img src="/img/icon/mainpage-icon3.png" alt="" class="mainpage__button-icon">-->
+                    <!--<span class="mainpage__button-text">-->
+						<!--Все о заявках-->
+					<!--</span>-->
+                <!--</a>-->
+            <!--</div>-->
+            <!--<div class="col-xs-6 text-center mainpage__button">-->
+                <!--<a href="/tracking/">-->
+                    <!--<img src="/img/icon/mainpage-icon4.png" alt="" class="mainpage__button-icon">-->
+                    <!--<span class="mainpage__button-text">-->
+						<!--Отслеживание груза-->
+					<!--</span>-->
+                <!--</a>-->
+            <!--</div>-->
+            <!--<div class="clearfix"></div>-->
+            <!--<div class="col-xs-6 text-center mainpage__button">-->
+                <!--<a href="/vgm/">-->
+                    <!--<img src="/img/icon/mainpage-icon5.png" alt="" class="mainpage__button-icon">-->
+                    <!--<span class="mainpage__button-text">-->
+						<!--VGM-->
+					<!--</span>-->
+                <!--</a>-->
+            <!--</div>-->
+            <!--<div class="col-xs-6 text-center mainpage__button">-->
+                <!--<a href="/customs-documents/">-->
+                    <!--<img src="/img/icon/mainpage-icon6.png" alt="" class="mainpage__button-icon">-->
+                    <!--<span class="mainpage__button-text">-->
+						<!--Загрузка документов-->
+					<!--</span>-->
+                <!--</a>-->
+            <!--</div>-->
+            <!--<div class="clearfix"></div>-->
+            <!--<div class="col-xs-6 text-center mainpage__button">-->
+                <!--<a href="/elar/">-->
+                    <!--<img src="/img/icon/mainpage-icon7.png" alt="" class="mainpage__button-icon">-->
+                    <!--<span class="mainpage__button-text">-->
+						<!--Электронный архив-->
+					<!--</span>-->
+                <!--</a>-->
+            <!--</div>-->
+            <!--<div class="col-xs-6 text-center mainpage__button">-->
+                <!--<a href="/schedule/">-->
+                    <!--<img src="/img/icon/mainpage-icon8.png" alt="" class="mainpage__button-icon">-->
+                    <!--<span class="mainpage__button-text">-->
+						<!--Расписание-->
+					<!--</span>-->
+                <!--</a>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="col-md-7 hidden-xs hidden-sm">-->
+            <!--<div class="mainpage__rigth-bg" style="background-image: url('/img/shutterstock_309831896.png')">-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
 
 <!--<div class="content">-->
     <!--<img src="https://images.unsplash.com/photo-1494412651409-8963ce7935a7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=79a523f15041949bfc3c91c1e9f723c2&auto=format&fit=crop&w=1050&q=80" alt="">-->
