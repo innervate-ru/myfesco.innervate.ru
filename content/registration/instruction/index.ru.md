@@ -25,14 +25,10 @@ showLikeBtn: false
 
 
 <br/>
-Теперь вы можете войти в Личный кабинет! <br/>
-
-{{<btn href="https://my.fesco.com/login" color="warning" icon="external-link-square" text="Войти в личный кабинет" target="_blank" >}}
-
+Теперь Вам предоставлен <a href="/registration/questions/" target="_blank"> ограниченный доступ</a>  к Личному кабинету. 
 <br/>
-Вам предоставлен <a href="/registration/questions/" target="_blank"> ограниченный доступ</a>  к Личному кабинету. <br/>
-Чтобы получить полный доступ, пожалуйста, обратитесь к <a href="http://www.fesco.ru/contacts/" target="_blank">менеджеру любого офиса</a>. 
 
+Чтобы получить полный доступ, пожалуйста, обратитесь к <a href="http://www.fesco.ru/contacts/" target="_blank">менеджеру любого офиса</a>. 
 Вам понадобятся: <br/>
 
 * Подписанный договор на перевозку
