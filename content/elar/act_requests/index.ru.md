@@ -48,3 +48,7 @@ showLikeBtn: true
 
 {{<alert icon="exclamation-triangle" color="alert6-light" text="Если вы не получили документ по e-mail в течение 5 рабочих дней — пожалуйста, свяжитесь с нами повторно." close="false">}}
 
+
+{{<seeAlso>}}
+    {{<seeAlsoItem link="/elar/duplicated_documents_requests/" text="Как подать запрос на дубликаты документов">}}
+{{</seeAlso>}}

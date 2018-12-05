@@ -45,4 +45,11 @@ showLikeBtn: true
 Тег удален!
  <br/>
 
+{{<seeAlso>}}
+    {{<seeAlsoItem link="/all_orders/templates_and_drafts/" text="Черновики и шаблоны">}}
+    {{<seeAlsoItem link="/all_orders/errors/" text="Ошибки заявок">}}
+    {{<seeAlsoItem link="/all_orders/popular_questions/" text="Как восстановить отмененную заявку?">}}
+    {{<seeAlsoItem link="/all_orders/popular_questions/" text="Как скорректировать заявку?">}}
+    {{<seeAlsoItem link="/all_orders/popular_questions/" text="Когда заявка перемещается в архив?">}}
+{{</seeAlso>}}
 

@@ -32,3 +32,9 @@ showLikeBtn: true
   <i class="fa fa-envelope"></i>После отправки заявки вам будет отправлено уведомление с деталями заявки на электронный адрес. <br/> По желанию вы можете продолжать переписку, нажимая ОТВЕТИТЬ  на письмо заявки.
 </div>
 
+{{<seeAlso>}}
+    {{<seeAlsoItem link="/new_order/online_order/copy/" text="Копирование из старой заявки">}}
+    {{<seeAlsoItem link="/new_order/fields/" text="Как заполнять поля заявки">}}
+    {{<seeAlsoItem link="/new_order/questions/" text="Как добавить еще один груз в заявку?">}}
+    {{<seeAlsoItem link="/new_order/questions/" text="Кого указывать получателем на станции назначения?">}}
+{{</seeAlso>}}

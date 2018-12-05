@@ -26,3 +26,8 @@ showLikeBtn: true
 б) Нажмите кнопку “Создать задание" у выбранного шаблона; <br/>
 {{< img name="images/2*" class="img-fluid" style="width:80%">}}
 в) Нажмите оранжевую кнопку “Сформировать Excel-файл”, чтобы сгенерировать файл.
+
+
+{{<seeAlso>}}
+    {{<seeAlsoItem link="/excel/export/" text="Как сгенерировать файл Excel">}}
+{{</seeAlso>}}

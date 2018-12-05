@@ -28,3 +28,9 @@ showLikeBtn: true
 Выберите параметры, прокрутите вниз и нажмите кнопку “Найти”.
 
 {{< gif name="screencast12-min*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:90%">}}
+
+
+{{<seeAlso>}}
+    {{<seeAlsoItem link="/elar/act_requests/" text="Как подать запрос на акт сверки">}}
+    {{<seeAlsoItem link="/elar/duplicated_documents_requests/" text="Как подать запрос на дубликаты документов">}}
+{{</seeAlso>}}

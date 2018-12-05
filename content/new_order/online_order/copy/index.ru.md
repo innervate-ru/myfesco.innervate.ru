@@ -28,4 +28,10 @@ showLikeBtn: true
 </div>
 
 <br/>
-[Как заполнять поля заявки](/new_order/fields/)
+
+{{<seeAlso>}}
+    {{<seeAlsoItem link="/new_order/online_order/templates/" text="Заявка из шаблона">}}
+    {{<seeAlsoItem link="/new_order/fields/" text="Как заполнять поля заявки">}}
+    {{<seeAlsoItem link="/new_order/questions/" text="Как добавить еще один груз в заявку?">}}
+    {{<seeAlsoItem link="/new_order/questions/" text="Кого указывать получателем на станции назначения?">}}
+{{</seeAlso>}}

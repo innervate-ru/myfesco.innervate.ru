@@ -30,5 +30,10 @@ showLikeBtn: true
 После попытки отправить заявку из шаблона или черновика, произойдёт проверка ставки и доступности выбранного рейса (для морской заявки).
 В случае неактуальности выбранного рейса или ставки в результатах выборки будет выведена соответствующая ошибка. Необходимо выбрать новую ставку и рейс.
 
-<a href="http://kb.innervate.ru/new_order/online_order/templates/
-" target="_blank">Как создавать заявку из шаблона</a>
+{{<seeAlso>}}
+    {{<seeAlsoItem link="/all_orders/tagging/" text="Зачем нужны теги и как их задать">}}
+    {{<seeAlsoItem link="/all_orders/errors/" text="Ошибки заявок">}}
+    {{<seeAlsoItem link="/all_orders/popular_questions/" text="Как восстановить отмененную заявку?">}}
+    {{<seeAlsoItem link="/all_orders/popular_questions/" text="Как скорректировать заявку?">}}
+    {{<seeAlsoItem link="/all_orders/popular_questions/" text="Когда заявка перемещается в архив?">}}
+{{</seeAlso>}}
