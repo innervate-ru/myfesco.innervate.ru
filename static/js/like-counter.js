@@ -16,7 +16,7 @@ $(document).ready(function () {
         .then(function (response) {
             if (response.data.ok) {
                 // прописываем значение счетчика на кнопке
-                $("#like-counter .badge").text(response.data.result.like)
+                $(".is-helpful_yes_count").text(response.data.result.like)
             }
         })
         .catch(function (error) {
@@ -24,7 +24,7 @@ $(document).ready(function () {
         })
 
     // обработка нового клика
-    $("#like-counter").click(function () {
+    $(".is-helpful__btn.button-y").click(function () {
         axiosInstance.post( '/newClick', {
             url: window.location.pathname,
             type: 'like'
@@ -32,7 +32,7 @@ $(document).ready(function () {
             .then(function (response) {
                 if (response.data.ok) {
                     // прописываем значение счетчика на кнопке
-                    $("#like-counter .badge").text(response.data.result.like)
+                    $(".is-helpful_yes_count").text(response.data.result.like)
                 }
             })
             .catch(function (error) {

@@ -7,7 +7,6 @@ Description: ""
 type: help_doc
 layout: help_doc
 weight: 10
-showLikeBtn: false
 ---
 
 
@@ -33,6 +32,8 @@ showLikeBtn: false
 
 * Подписанный договор на перевозку
 * Подписанное приложение для работы в ЛК (запросить можно у Вашего менеджера)
+
+{{<isHelpful>}}
 
 {{<seeAlso>}}
     {{<seeAlsoItem link="/registration/questions/" target="_blank" text="Если пароль от личного кабинета на почту не пришел">}}
