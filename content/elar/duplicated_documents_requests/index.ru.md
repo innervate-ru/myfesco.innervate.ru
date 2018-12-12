@@ -7,7 +7,6 @@ Description: ""
 type: help_doc
 layout: help_doc
 weight: 7
-showLikeBtn: true
 ---
 
 
@@ -41,6 +40,8 @@ showLikeBtn: true
 <div class="pixxett-alert pixxett-alert-icon alert11-light">
   <i class="fa fa-clock-o"></i>Среднее время обработки запроса на подготовку дубликатов закрывающих документов — <b>2 рабочих дня</b>. <br/> Подготовленные документы в электронном виде будут доступны в разделе Электронный архив. <br/> Время доставки оригиналов зависит от способа доставки.
 </div>
+
+{{<isHelpful>}}
 
 {{<seeAlso>}}
     {{<seeAlsoItem link="/elar/act_requests/" text="Как подать запрос на акт сверки">}}

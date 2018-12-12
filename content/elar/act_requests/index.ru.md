@@ -7,7 +7,6 @@ Description: ""
 type: help_doc
 layout: help_doc
 weight: 7
-showLikeBtn: true
 ---
 
 а) **Зайдите в раздел** <a href="https://my.fesco.com/archive/reconciliation-report-requests" target="_blank">Запросы актов сверки </a> и нажмите на кнопку "Новый запрос" или оранжевый "плюсик" .
@@ -48,7 +47,10 @@ showLikeBtn: true
 
 {{<alert icon="exclamation-triangle" color="alert6-light" text="Если вы не получили документ по e-mail в течение 5 рабочих дней — пожалуйста, свяжитесь с нами повторно." close="false">}}
 
+{{<isHelpful>}}
+
 
 {{<seeAlso>}}
     {{<seeAlsoItem link="/elar/duplicated_documents_requests/" text="Как подать запрос на дубликаты документов">}}
 {{</seeAlso>}}
+

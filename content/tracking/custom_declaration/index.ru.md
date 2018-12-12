@@ -17,6 +17,8 @@ weight: 4
 
 {{< img name="images/2*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:70%">}}
 
+{{<isHelpful>}}
+
 {{<seeAlso>}}
     {{<seeAlsoItem link="/tracking/where_container/" target="_blank" text="Где мой контейнер?">}}
     {{<seeAlsoItem link="/tracking/customs_events/" text="Досмотр, взвешивание и МИДК">}}

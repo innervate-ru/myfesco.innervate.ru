@@ -7,7 +7,6 @@ Description: ""
 type: help_doc
 layout: help_doc
 weight: 3
-showLikeBtn: true
 --- 
 
 {{<alert icon="hand-o-up" color="alert11-light" text="Используйте эту функцию, если ваши перевозки часто повторяются, и данные по ним идентичны или похожи." close="false">}} 
@@ -31,6 +30,8 @@ showLikeBtn: true
 <div class="pixxett-alert pixxett-alert-icon alert8-light">
   <i class="fa fa-envelope"></i>После отправки заявки вам будет отправлено уведомление с деталями заявки на электронный адрес. <br/> По желанию вы можете продолжать переписку, нажимая ОТВЕТИТЬ  на письмо заявки.
 </div>
+
+{{<isHelpful>}}
 
 {{<seeAlso>}}
     {{<seeAlsoItem link="/new_order/online_order/copy/" text="Копирование из старой заявки">}}

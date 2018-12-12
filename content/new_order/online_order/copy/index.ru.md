@@ -7,7 +7,6 @@ Description: ""
 type: help_doc
 layout: help_doc
 weight: 3
-showLikeBtn: true
 ---
 
 
@@ -28,6 +27,9 @@ showLikeBtn: true
 </div>
 
 <br/>
+
+{{<isHelpful>}}
+
 
 {{<seeAlso>}}
     {{<seeAlsoItem link="/new_order/online_order/templates/" text="Заявка из шаблона">}}

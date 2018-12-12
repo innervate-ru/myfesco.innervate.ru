@@ -13,6 +13,8 @@ weight: 5
 
 {{< img name="images/1*" class="img-fluid" style="width:90%">}}
 
+{{<isHelpful>}}
+
 {{<seeAlso>}}
     {{<seeAlsoItem link="/tracking/where_container/" target="_blank" text="Где мой контейнер?">}}
     {{<seeAlsoItem link="/tracking/customs_events/" text="Досмотр, взвешивание и МИДК">}}

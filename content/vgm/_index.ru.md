@@ -8,7 +8,6 @@ type: help_doc
 layout: help_doc
 weight: 10
 menuIcon: anchor
-showLikeBtn: true
 ---
 
 <div class="pixxett-alert pixxett-alert-icon alert4-light">
@@ -35,3 +34,6 @@ showLikeBtn: true
 
 <br/>
 г) Нажмите "Сохранить"
+
+{{<isHelpful>}}
+

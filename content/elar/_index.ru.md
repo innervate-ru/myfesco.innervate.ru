@@ -8,7 +8,6 @@ type: help_doc
 layout: help_doc
 weight: 7
 menuIcon: archive
-showLikeBtn: true
 ---
 
 <div class="pixxett-alert pixxett-alert-icon alert4-light">
@@ -29,6 +28,8 @@ showLikeBtn: true
 
 {{< gif name="screencast12-min*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:90%">}}
 
+
+{{<isHelpful>}}
 
 {{<seeAlso>}}
     {{<seeAlsoItem link="/elar/act_requests/" text="Как подать запрос на акт сверки">}}

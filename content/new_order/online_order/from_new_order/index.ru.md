@@ -7,7 +7,6 @@ Description: ""
 type: help_doc
 layout: help_doc
 weight: 1
-showLikeBtn: true
 ---
 
 а) зайдите на страницу <a href="https://my.fesco.com/requests" target="_blank">“Мои заявки”</a>   и нажмите оранжевую кнопку “Новая заявка”; <br/>
@@ -38,6 +37,9 @@ showLikeBtn: true
   <i class="fa fa-envelope"></i>После отправки заявки вам будет отправлено уведомление с деталями заявки на электронный адрес. <br/> По желанию вы можете продолжать переписку, нажимая ОТВЕТИТЬ  на письмо заявки.
 </div>
 <br/>
+
+{{<isHelpful>}}
+
 
 {{<seeAlso>}}
     {{<seeAlsoItem link="/new_order/online_order/copy/" text="Копирование из старой заявки">}}

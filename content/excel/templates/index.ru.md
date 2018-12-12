@@ -7,7 +7,6 @@ Description: ""
 type: help_doc
 layout: help_doc
 weight: 10
-showLikeBtn: true
 ---
 
 ##### Чтобы создать шаблон выгрузки
@@ -26,6 +25,8 @@ showLikeBtn: true
 б) Нажмите кнопку “Создать задание" у выбранного шаблона; <br/>
 {{< img name="images/2*" class="img-fluid" style="width:80%">}}
 в) Нажмите оранжевую кнопку “Сформировать Excel-файл”, чтобы сгенерировать файл.
+
+{{<isHelpful>}}
 
 
 {{<seeAlso>}}

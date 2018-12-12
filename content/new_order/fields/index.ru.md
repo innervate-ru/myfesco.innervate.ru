@@ -7,7 +7,6 @@ Description: ""
 type: help_doc
 layout: help_doc
 weight: 2
-showLikeBtn: true
 ---
 
 {{<accordion>}}
@@ -54,3 +53,6 @@ showLikeBtn: true
 <br/>
   {{</accordionItem>}}
 {{</accordion>}}
+
+{{<isHelpful>}}
+

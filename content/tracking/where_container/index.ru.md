@@ -34,6 +34,7 @@ weight: 1
 
 {{< gif name="images/3*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:90%">}}
 
+{{<isHelpful>}}
 
 
 {{<seeAlso>}}

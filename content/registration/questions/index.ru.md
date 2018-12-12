@@ -6,7 +6,6 @@ tags: ["api", "метод"]
 Description: ""
 type: help_doc
 layout: help_doc
-showLikeBtn: true
 ---
 
 {{<alert icon="question-circle" color="alert7-light" text="Если пароль от личного кабинета вам на почту не пришел " close="false">}} 
@@ -159,3 +158,6 @@ showLikeBtn: true
 
 * Подписанный договор на перевозку
 * Подписанное приложение для работы в ЛК (запросить можно у Вашего менеджера).
+
+{{<isHelpful>}}
+

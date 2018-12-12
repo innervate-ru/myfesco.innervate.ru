@@ -22,6 +22,8 @@ menuIcon: location-arrow
 * Счета, акты и коносаменты;
 * ЖД-накладные.
 
+{{<isHelpful>}}
+
 {{<seeAlso>}}
     {{<seeAlsoItem link="/tracking/where_container/" target="_blank" text="Где мой контейнер?">}}
     {{<seeAlsoItem link="/tracking/customs_events/" text="Досмотр, взвешивание и МИДК">}}

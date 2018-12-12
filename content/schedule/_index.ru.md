@@ -8,7 +8,6 @@ type: help_doc
 layout: help_doc
 weight: 9
 menuIcon: calendar
-showLikeBtn: true
 ---
 
 Чтобы посмотреть расписание:
@@ -18,3 +17,5 @@ showLikeBtn: true
 * нажмите на кнопку “Узнать расписание”.
 
 {{< img name="5*" class="img-fluid" style="width:70%">}}
+
+{{<isHelpful>}}

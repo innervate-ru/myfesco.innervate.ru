@@ -7,8 +7,10 @@ Description: ""
 type: help_doc
 layout: help_doc
 weight: 4
-showLikeBtn: true
 ---
+
+
+
 
 {{<alert icon="question-circle" color="alert7-light" text="Как восстановить отмененную заявку?" close="false">}} 
 
@@ -37,4 +39,6 @@ showLikeBtn: true
 {{<alert icon="question-circle" color="alert7-light" text="Почему у выполненных заявок указан статус Заявка в процессе выполнения?" close="false">}} 
 
 Заявка перемещается в архив не сразу, а через некоторое время — тогда, когда будут сформированы закрывающие документы по перевозке.
+
+{{<isHelpful>}}
 

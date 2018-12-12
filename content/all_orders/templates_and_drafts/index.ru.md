@@ -7,7 +7,6 @@ Description: ""
 type: help_doc
 layout: help_doc
 weight: 1
-showLikeBtn: true
 ---
 
 
@@ -37,3 +36,5 @@ showLikeBtn: true
     {{<seeAlsoItem link="/all_orders/popular_questions/" text="Как скорректировать заявку?">}}
     {{<seeAlsoItem link="/all_orders/popular_questions/" text="Когда заявка перемещается в архив?">}}
 {{</seeAlso>}}
+
+{{<isHelpful>}}
