@@ -6,7 +6,7 @@ tags: ["api", "метод"]
 Description: ""
 type: help_doc
 layout: help_doc
-weight: 7
+weight: 2
 ---
 
 
@@ -45,4 +45,5 @@ weight: 7
 
 {{<seeAlso>}}
     {{<seeAlsoItem link="/elar/act_requests/" text="Как подать запрос на акт сверки">}}
+     {{<seeAlsoItem link="/elar/archive_zip/" text="Как выгрузить документы архивом">}}
 {{</seeAlso>}}

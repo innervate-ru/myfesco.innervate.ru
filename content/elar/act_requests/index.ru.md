@@ -6,7 +6,7 @@ tags: ["api", "метод"]
 Description: ""
 type: help_doc
 layout: help_doc
-weight: 7
+weight: 1
 ---
 
 а) **Зайдите в раздел** <a href="https://my.fesco.com/archive/reconciliation-report-requests" target="_blank">Запросы актов сверки </a> и нажмите на кнопку "Новый запрос" или оранжевый "плюсик" .
@@ -52,5 +52,6 @@ weight: 7
 
 {{<seeAlso>}}
     {{<seeAlsoItem link="/elar/duplicated_documents_requests/" text="Как подать запрос на дубликаты документов">}}
+    {{<seeAlsoItem link="/elar/archive_zip/" text="Как выгрузить документы архивом">}}
 {{</seeAlso>}}
 
