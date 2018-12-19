@@ -1187,6 +1187,7 @@ ol.sidebar-panel li ol {
     background: white;
     overflow: hidden;
     min-height: 100vh;
+    background: #e8ebf1;
 }
 
 /* a. Page header and title */
