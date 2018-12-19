@@ -29,9 +29,9 @@ weight: 10
 
 ##### Как сгенерировать файл Excel
 
-а) Зайдите на страницу <a href="https://dev04-my.fesco.com/terminal-tracking-export" target="_blank">Экспорт данных терминального слежения</a> и нажмите оранжевую кнопку “Создать задание” ;
+а) Зайдите на страницу <a href="https://my.fesco.com/terminal-tracking-export" target="_blank">Экспорт данных терминального слежения</a> и нажмите оранжевую кнопку “Выгрузить данные” ;
 
-{{< img name="images/1*" class="img-fluid" style="width:80%">}}
+{{< img name="images/2*" class="img-fluid" style="width:90%">}}
 <br/>
 б) Заполните необходимые вам поля в фильтре, чтобы отфильтровать данные для выгрузки ;
 

@@ -30,6 +30,7 @@ weight: 1
 В случае неактуальности выбранного рейса или ставки в результатах выборки будет выведена соответствующая ошибка. Необходимо выбрать новую ставку и рейс.
 
 {{<seeAlso>}}
+    {{<seeAlsoItem link="/new_order/online_order/templates/" text="Как создать заявку из шаблона">}}
     {{<seeAlsoItem link="/all_orders/tagging/" text="Зачем нужны теги и как их задать">}}
     {{<seeAlsoItem link="/all_orders/errors/" text="Ошибки заявок">}}
     {{<seeAlsoItem link="/all_orders/popular_questions/" text="Как восстановить отмененную заявку?">}}
