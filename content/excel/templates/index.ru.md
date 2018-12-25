@@ -24,6 +24,7 @@ weight: 10
 а) Зайдите в подраздел <a href="https://my.fesco.com/terminal-tracking-export/templates" target="_blank">“Шаблоны”</a> ; <br/>
 б) Нажмите кнопку “Создать задание" у выбранного шаблона; <br/>
 {{< img name="images/2*" class="img-fluid" style="width:80%">}}
+<br/>
 в) Нажмите оранжевую кнопку “Сформировать Excel-файл”, чтобы сгенерировать файл.
 
 {{<isHelpful>}}
