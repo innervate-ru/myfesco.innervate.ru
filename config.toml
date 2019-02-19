@@ -3,7 +3,7 @@ baseURL = "https://my.fesco.com/help"
 title = "Fesco Help"
 theme = "pixxett"
 MetaDataFormat = "toml"
-Paginate = 10s
+Paginate = 10
 DefaultContentLanguage = "ru"
 #defaultContentLanguageInSubdir= true
 
