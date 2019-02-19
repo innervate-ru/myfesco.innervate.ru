@@ -1,7 +1,7 @@
 var lunrIndex, $results, pagesIndex;
 
 function initSearchIndex() {
-    $.getJSON('/js/search/index.json')
+    $.getJSON('https://my.fesco.com/help/js/search/index.json')
         .done(function(documents) {
             pagesIndex = documents;
             lunrIndex = lunr(function() {
