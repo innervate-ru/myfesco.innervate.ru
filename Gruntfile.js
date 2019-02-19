@@ -45,7 +45,7 @@ module.exports = function (grunt) {
                 title: content.data.title,
                 categories: content.data.categories,
                 tags: content.data.tags,
-                href: '/help/' + href,
+                href: ('/help/' + href).replace("//", "/"),
                 content: S(modifiedContent).trim().stripTags().stripPunctuation().s
             };
         };
