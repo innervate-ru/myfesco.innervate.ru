@@ -1,4 +1,4 @@
-baseURL = "https://my.fesco.com/help"
+baseURL = "https://my.fesco.com"
 #languageCode = "en-us"
 title = "Fesco Help"
 theme = "pixxett"
