@@ -1,9 +1,9 @@
-baseURL = "https://my.fesco.com"
+baseURL = "https://my.fesco.com/help"
 #languageCode = "en-us"
 title = "Fesco Help"
 theme = "pixxett"
 MetaDataFormat = "toml"
-Paginate = 10
+Paginate = 10s
 DefaultContentLanguage = "ru"
 #defaultContentLanguageInSubdir= true
 
