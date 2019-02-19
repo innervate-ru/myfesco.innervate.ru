@@ -11,7 +11,7 @@ weight: 2
 
 ##### Как дозагрузить и отправить документы:
 
-а) Войдите в раздел <a href="https://my.fesco.com/customs-declaration" target="_blank">”Таможенное декларирование”</a> и найдите свою заявку; <br/>
+а) Войдите в раздел <a href="https://my.fesco.com/customs_declaration" target="_blank">”Таможенное декларирование”</a> и найдите свою заявку; <br/>
 б) Нажмите кнопку “Дозагрузить документы”. <br/> 
 Документы будут отозваны.
 После этого вы можете снова загрузить и отправить документы.
@@ -29,10 +29,10 @@ weight: 2
 {{<isHelpful>}}
 
 {{<seeAlso>}}
-    {{<seeAlsoItem link="/customs-documents/download_and_send/" text="Как загрузить документы">}}
-    {{<seeAlsoItem link="/customs-documents/delete/" text="Как отозвать документы">}}
-    {{<seeAlsoItem link="/customs-documents/statuses/" text="Статусы документов">}}
-    {{<seeAlsoItem link="/customs-documents/history/" text="Как посмотреть историю пакета документов">}}
+    {{<seeAlsoItem link="/customs_documents/download_and_send/" text="Как загрузить документы">}}
+    {{<seeAlsoItem link="/customs_documents/delete/" text="Как отозвать документы">}}
+    {{<seeAlsoItem link="/customs_documents/statuses/" text="Статусы документов">}}
+    {{<seeAlsoItem link="/customs_documents/history/" text="Как посмотреть историю пакета документов">}}
 {{</seeAlso>}}
 
 

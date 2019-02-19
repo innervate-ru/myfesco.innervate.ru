@@ -11,7 +11,7 @@ weight: 1
 
 ##### Как загрузить и отправить документы
 
-а) войдите в раздел <a href="https://my.fesco.com/customs-declaration" target="_blank">”Таможенное декларирование”</a>; <br/>
+а) войдите в раздел <a href="https://my.fesco.com/customs_declaration" target="_blank">”Таможенное декларирование”</a>; <br/>
 б) найдите нужный контейнер (в фильтре слева введите номер контейнера или коносамент) и нажмите кнопку “Найти”; <br/>
 в) зайдите в заявку (по клику на ID);
 
@@ -54,10 +54,10 @@ weight: 1
 {{<isHelpful>}}
 
 {{<seeAlso>}}
-    {{<seeAlsoItem link="/customs-documents/reloading/" text="Как дозагрузить документы">}}
-    {{<seeAlsoItem link="/customs-documents/delete/" text="Как отозвать документы">}}
-    {{<seeAlsoItem link="/customs-documents/statuses/" text="Статусы документов">}}
-    {{<seeAlsoItem link="/customs-documents/history/" text="Как посмотреть историю пакета документов">}}
+    {{<seeAlsoItem link="/customs_documents/reloading/" text="Как дозагрузить документы">}}
+    {{<seeAlsoItem link="/customs_documents/delete/" text="Как отозвать документы">}}
+    {{<seeAlsoItem link="/customs_documents/statuses/" text="Статусы документов">}}
+    {{<seeAlsoItem link="/customs_documents/history/" text="Как посмотреть историю пакета документов">}}
 {{</seeAlso>}}
 
 
