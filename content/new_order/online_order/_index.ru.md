@@ -17,7 +17,7 @@ weight: 1
     <div class="row text-inline">
       <div>
        <img src="/img/icon/ico-from-form.png" alt="Иконка">
-        <a href="/help/new_order/online_order/from_new_order/">
+        <a href="http://my.fesco.com/help/new_order/online_order/from_new_order/">
           Через форму<br>Новая заявка
         </a>
       </div>
