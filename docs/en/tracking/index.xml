@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Registration on Fesco Help</title>
+    <link>https://my.fesco.com/en/tracking/</link>
+    <description>Recent content in Registration on Fesco Help</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 29 Sep 2014 21:54:53 -0500</lastBuildDate>
+    
+	<atom:link href="https://my.fesco.com/en/tracking/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Registration</title>
+      <link>https://my.fesco.com/en/tracking/custom_declaration/</link>
+      <pubDate>Mon, 29 Sep 2014 21:54:53 -0500</pubDate>
+      
+      <guid>https://my.fesco.com/en/tracking/custom_declaration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Registration</title>
+      <link>https://my.fesco.com/en/tracking/customs_events/</link>
+      <pubDate>Mon, 29 Sep 2014 21:54:53 -0500</pubDate>
+      
+      <guid>https://my.fesco.com/en/tracking/customs_events/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Registration</title>
+      <link>https://my.fesco.com/en/tracking/invoices-and-acts/</link>
+      <pubDate>Mon, 29 Sep 2014 21:54:53 -0500</pubDate>
+      
+      <guid>https://my.fesco.com/en/tracking/invoices-and-acts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Registration</title>
+      <link>https://my.fesco.com/en/tracking/railway_bills/</link>
+      <pubDate>Mon, 29 Sep 2014 21:54:53 -0500</pubDate>
+      
+      <guid>https://my.fesco.com/en/tracking/railway_bills/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Registration</title>
+      <link>https://my.fesco.com/en/tracking/where_container/</link>
+      <pubDate>Mon, 29 Sep 2014 21:54:53 -0500</pubDate>
+      
+      <guid>https://my.fesco.com/en/tracking/where_container/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

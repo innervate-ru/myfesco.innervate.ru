@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Регистрация on Fesco Help</title>
+    <link>https://my.fesco.com/registration/</link>
+    <description>Recent content in Регистрация on Fesco Help</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 31 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://my.fesco.com/registration/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Как зарегистрироваться в личном кабинете</title>
+      <link>https://my.fesco.com/registration/instruction/</link>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://my.fesco.com/registration/instruction/</guid>
+      <description>а) зайдите на форму регистрации и заполните ее;  б) дождитесь получения кода подтверждения регистрации в виде SMS с номера FESCO на указанный мобильный номер;  в) введите код подтверждения в той же форме регистрации;  г) на указанный Вами телефон и электронную почту будет выслан пароль для входа в систему. 
+Указанные при регистрации ИНН и электронная почта будут использованы для проверки в системе и отправки уведомлений из системы Личный Кабинет при создании заявок и другой информации.</description>
+    </item>
+    
+    <item>
+      <title>Популярные вопросы</title>
+      <link>https://my.fesco.com/registration/questions/</link>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://my.fesco.com/registration/questions/</guid>
+      <description>Если пароль от личного кабинета вам на почту не пришел   Проверьте папки &amp;ldquo;Спам&amp;rdquo; и &amp;ldquo;Несрочные&amp;rdquo;. Напишите в чат на сайте.
+  Что такое ограниченный и полный доступ в личный кабинет После регистрации вам предоставляется ограниченный доступ в личный кабинет.  Вам доступны следующие функции: Публичный доступОграниченный доступПолный доступКалькулятор расчета ставокПодача запросов на котировкиПодача заявок на перевозкиСохранение черновиков заказовКопирование заказовТрекинг контейнеров и статусы перевозкиЗагрузка и статусы таможенных документовВнесение информаций о VGMДоговоры и счетаПереписка с менеджером</description>
+    </item>
+    
+  </channel>
+</rss>

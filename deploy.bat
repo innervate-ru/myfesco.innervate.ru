@@ -11,10 +11,8 @@ git push origin master
 
 grunt search-index
 
-hugo
+hugo -d ./docs
 
-cd public
 git add .
 git commit -m "update"
 git push origin master
-cd ..

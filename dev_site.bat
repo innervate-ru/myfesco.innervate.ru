@@ -1,7 +1,7 @@
 @echo on
 
-grunt search-index
+call grunt search-index
 
 start http://localhost:1313
 
-hugo server
+call hugo server

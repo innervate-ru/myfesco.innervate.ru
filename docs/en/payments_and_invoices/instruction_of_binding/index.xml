@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Registration on Fesco Help</title>
+    <link>https://my.fesco.com/en/payments_and_invoices/instruction_of_binding/</link>
+    <description>Recent content in Registration on Fesco Help</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 29 Sep 2014 21:54:53 -0500</lastBuildDate>
+    
+	<atom:link href="https://my.fesco.com/en/payments_and_invoices/instruction_of_binding/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Registration</title>
+      <link>https://my.fesco.com/en/payments_and_invoices/instruction_of_binding/rouble-rouble/</link>
+      <pubDate>Mon, 29 Sep 2014 21:54:53 -0500</pubDate>
+      
+      <guid>https://my.fesco.com/en/payments_and_invoices/instruction_of_binding/rouble-rouble/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

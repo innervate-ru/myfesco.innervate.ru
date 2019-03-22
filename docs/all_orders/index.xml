@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Все о заявках on Fesco Help</title>
+    <link>https://my.fesco.com/all_orders/</link>
+    <description>Recent content in Все о заявках on Fesco Help</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 30 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://my.fesco.com/all_orders/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Черновики и шаблоны</title>
+      <link>https://my.fesco.com/all_orders/templates_and_drafts/</link>
+      <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://my.fesco.com/all_orders/templates_and_drafts/</guid>
+      <description>Что такое черновик? Черновик — это сохраненная, но не отправленная заявка. Чтобы сохранить черновик, нажмите в новой заявке &amp;ldquo;Сохранить&amp;rdquo; вместо &amp;ldquo;Подать заявку&amp;rdquo;.
+Что такое шаблон? Шаблон — это заявка, которая отмечена тегом “шаблон”. Из шаблона можно создать новую заявку. Шаблоны привязываются к компаниям, а не пользователям. Т.е. все пользователи, привязанные к одной компании, видят одни и те же шаблоны.
+После попытки отправить заявку из шаблона или черновика, произойдёт проверка ставки и доступности выбранного рейса (для морской заявки).</description>
+    </item>
+    
+    <item>
+      <title>Тегирование</title>
+      <link>https://my.fesco.com/all_orders/tagging/</link>
+      <pubDate>Wed, 14 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://my.fesco.com/all_orders/tagging/</guid>
+      <description>Теги позволяют проще найти заявку среди других. Чтобы поставить тег или создать новый тег у заявки:  Зайдите в раздел “Мои заявки”  Перейдите в плиточное предоставление данных Нажмите “Добавить” у поля Теги Введите новый тег и нажмите Enter, или выберите тег из списка.    Тег установлен!  
+Чтобы найти заявку по тегу:  Зайдите в раздел “Мои заявки”  Выберите в фильтре название тега из списка Нажмите кнопку “Найти”    Заявки отфильтровались по тегу!</description>
+    </item>
+    
+    <item>
+      <title>Ошибки заявок</title>
+      <link>https://my.fesco.com/all_orders/errors/</link>
+      <pubDate>Wed, 12 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://my.fesco.com/all_orders/errors/</guid>
+      <description>В личном кабинете вы можете увидеть несколько типов ошибок.    Срок действия ставки истек. 
+Причина ошибки: ставка больше не действительна. Что нужно сделать: пожалуйста, измените дату “Плановая дата отгрузки” на новую.  После этого выберите новую ставку, нажав оранжевую кнопку “Выбрать стоимость услуги”.
+  У вас отсутствует договор на оформление заявок на перевозку данного типа.
+Причина ошибки: скорее всего у вас нет подписанного дополнительного соглашения к договору для работы с электронными заявками в ЛК.</description>
+    </item>
+    
+  </channel>
+</rss>
