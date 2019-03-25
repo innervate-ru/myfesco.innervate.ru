@@ -5,19 +5,10 @@
     <link>https://my.fesco.com/payments_and_invoices/instruction_of_binding/</link>
     <description>Recent content in Инструкция по привязке платежей on Fesco Help</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 30 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://my.fesco.com/payments_and_invoices/instruction_of_binding/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Как заполнять поля заявки</title>
-      <link>https://my.fesco.com/payments_and_invoices/instruction_of_binding/rouble-rouble/</link>
-      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://my.fesco.com/payments_and_invoices/instruction_of_binding/rouble-rouble/</guid>
-      <description>Поле «Принадлежность контейнера»Если контейнер FESCO, то в поле нужно выбрать COC.Если контейнер сторонней линии или ваш собственный, то в поле нужно выбрать SOC.Поле «Юридическое лицо»Выберите в один из договоров, для которого будет создана заявка на перевозку.Поле «Наименование груза по коносаменту»В этом поле указывается фактическое наименование груза.Например, Стройматериалы или Мебель металлическая.Коды ЕТСНГ-ГНГ«Код ГНГ» — чаще всего соответствуют первым 8 цифрам ТНВЭД.</description>
-    </item>
     
   </channel>
 </rss>

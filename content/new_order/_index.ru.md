@@ -7,7 +7,6 @@ type: help_doc
 layout: help_doc
 weight: 2
 menuIcon: file-text
-redirect: "/new_order/online_order/"
 ---
 
 [Как подать заявку](/new_order/online_order/)

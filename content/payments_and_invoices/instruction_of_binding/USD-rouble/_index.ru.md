@@ -1,13 +1,16 @@
 ---
-date: "2018-10-31"
-title: "Онлайн-заявка"
+date: "2019-03-21"
+title: "USD счет - RUB оплата"
 titleEn: "test3"
 tags: ["api", "метод"]
 Description: ""
 type: help_doc
 layout: help_doc
-weight: 1
+weight: 2
 ---
+
+Тестовая
+
 
 <br/>
 

@@ -84,15 +84,6 @@
     
     <item>
       <title>Registration</title>
-      <link>https://my.fesco.com/en/payments_and_invoices/instruction_of_binding/rouble-rouble/</link>
-      <pubDate>Mon, 29 Sep 2014 21:54:53 -0500</pubDate>
-      
-      <guid>https://my.fesco.com/en/payments_and_invoices/instruction_of_binding/rouble-rouble/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Registration</title>
       <link>https://my.fesco.com/en/tracking/custom_declaration/</link>
       <pubDate>Mon, 29 Sep 2014 21:54:53 -0500</pubDate>
       
@@ -161,6 +152,24 @@
       
       <guid>https://my.fesco.com/en/elar/duplicated_documents_requests/</guid>
       <description> Config </description>
+    </item>
+    
+    <item>
+      <title>Test3</title>
+      <link>https://my.fesco.com/en/excel/export/</link>
+      <pubDate>Thu, 29 Mar 2018 21:54:53 -0500</pubDate>
+      
+      <guid>https://my.fesco.com/en/excel/export/</guid>
+      <description> test3 </description>
+    </item>
+    
+    <item>
+      <title>Test3</title>
+      <link>https://my.fesco.com/en/excel/templates/</link>
+      <pubDate>Thu, 29 Mar 2018 21:54:53 -0500</pubDate>
+      
+      <guid>https://my.fesco.com/en/excel/templates/</guid>
+      <description> test3 </description>
     </item>
     
     <item>

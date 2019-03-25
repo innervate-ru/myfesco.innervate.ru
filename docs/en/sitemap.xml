@@ -168,6 +168,21 @@
   </url>
   
   <url>
+    <loc>https://my.fesco.com/en/excel/</loc>
+    <lastmod>2014-09-29T21:54:53-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://my.fesco.com/excel/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://my.fesco.com/en/excel/"
+                />
+  </url>
+  
+  <url>
     <loc>https://my.fesco.com/en/new_order/</loc>
     <lastmod>2014-09-29T21:54:53-05:00</lastmod>
     <xhtml:link
@@ -344,21 +359,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://my.fesco.com/en/payments_and_invoices/instruction_of_binding/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://my.fesco.com/en/payments_and_invoices/instruction_of_binding/rouble-rouble/</loc>
-    <lastmod>2014-09-29T21:54:53-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://my.fesco.com/payments_and_invoices/instruction_of_binding/rouble-rouble/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://my.fesco.com/en/payments_and_invoices/instruction_of_binding/rouble-rouble/"
                 />
   </url>
   
@@ -573,6 +573,21 @@
   </url>
   
   <url>
+    <loc>https://my.fesco.com/en/vgm/</loc>
+    <lastmod>2014-09-29T21:54:53-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://my.fesco.com/vgm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://my.fesco.com/en/vgm/"
+                />
+  </url>
+  
+  <url>
     <loc>https://my.fesco.com/en/why_cabinet/</loc>
     <lastmod>2014-09-29T21:54:53-05:00</lastmod>
     <xhtml:link
@@ -584,6 +599,36 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://my.fesco.com/en/why_cabinet/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://my.fesco.com/en/excel/export/</loc>
+    <lastmod>2018-03-29T21:54:53-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://my.fesco.com/excel/export/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://my.fesco.com/en/excel/export/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://my.fesco.com/en/excel/templates/</loc>
+    <lastmod>2018-03-29T21:54:53-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://my.fesco.com/excel/templates/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://my.fesco.com/en/excel/templates/"
                 />
   </url>
   

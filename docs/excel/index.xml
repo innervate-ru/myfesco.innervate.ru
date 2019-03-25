@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Выгрузка в Excel on Fesco Help</title>
+    <link>https://my.fesco.com/excel/</link>
+    <description>Recent content in Выгрузка в Excel on Fesco Help</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 27 Nov 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://my.fesco.com/excel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Генерация файла Excel</title>
+      <link>https://my.fesco.com/excel/export/</link>
+      <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://my.fesco.com/excel/export/</guid>
+      <description>Раздел Экспорт данных терминального слежения позволяет сгенерировать и выгрузить в Excel данные по терминальному слежению.  Вы можете также создать шаблон выгрузки и использовать его.   Что такое терминальное слежение?  Терминальное слежение — это внутренний термин, обозначающий отслеживание и запись всех событий, происходящих в течение перевозки.  В терминальном слежении вы можете увидеть следующие события и их даты: — досмотры,  — взвешивания,  — даты сдачи на ЖД,  — погрузку на судно и др.</description>
+    </item>
+    
+    <item>
+      <title>Шаблоны выгрузки</title>
+      <link>https://my.fesco.com/excel/templates/</link>
+      <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://my.fesco.com/excel/templates/</guid>
+      <description>Чтобы создать шаблон выгрузки а) В новом задании на выгрузку нажмите кнопку “Сохранить как шаблон”;  б) Введите название шаблона и нажмите “Создать шаблон”
+ Шаблон создан!
+
+Чтобы применить шаблон выгрузки а) Зайдите в подраздел “Шаблоны” ;  б) Нажмите кнопку “Создать задание&amp;rdquo; у выбранного шаблона;    в) Нажмите оранжевую кнопку “Сформировать Excel-файл”, чтобы сгенерировать файл.
+Были ли эта статья полезной? Да  Нет    Пользователи, считающие этот материал полезным  из  Еще есть вопросы?</description>
+    </item>
+    
+  </channel>
+</rss>

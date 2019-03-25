@@ -8,7 +8,6 @@ type: help_doc
 layout: help_doc
 weight: 1
 menuIcon: user
-redirect: "/registration/instruction/"
 ---
 
 [Как зарегистрироваться в личном кабинете](/registration/instruction/)
