@@ -513,6 +513,21 @@
   </url>
   
   <url>
+    <loc>https://my.fesco.com/excel/</loc>
+    <lastmod>2018-11-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://my.fesco.com/en/excel/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://my.fesco.com/excel/"
+                />
+  </url>
+  
+  <url>
     <loc>https://my.fesco.com/elar/</loc>
     <lastmod>2018-11-13T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -569,6 +584,51 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://my.fesco.com/elar/archive_zip/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://my.fesco.com/excel/export/</loc>
+    <lastmod>2018-11-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://my.fesco.com/en/excel/export/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://my.fesco.com/excel/export/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://my.fesco.com/excel/templates/</loc>
+    <lastmod>2018-11-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://my.fesco.com/en/excel/templates/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://my.fesco.com/excel/templates/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://my.fesco.com/vgm/</loc>
+    <lastmod>2018-11-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://my.fesco.com/en/vgm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://my.fesco.com/vgm/"
                 />
   </url>
   
