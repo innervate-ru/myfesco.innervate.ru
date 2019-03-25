@@ -363,6 +363,21 @@
   </url>
   
   <url>
+    <loc>https://my.fesco.com/en/payments_and_invoices/instruction_of_binding/rouble-rouble/</loc>
+    <lastmod>2014-09-29T21:54:53-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://my.fesco.com/payments_and_invoices/instruction_of_binding/rouble-rouble/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://my.fesco.com/en/payments_and_invoices/instruction_of_binding/rouble-rouble/"
+                />
+  </url>
+  
+  <url>
     <loc>https://my.fesco.com/en/payments_and_invoices/instruction_of_binding/sample_letter/</loc>
     <lastmod>2014-09-29T21:54:53-05:00</lastmod>
     <xhtml:link
