@@ -33,9 +33,9 @@ git_pull(){
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
-git fetch --all
-git reset --hard origin/master
-git pull
+#git fetch --all
+#git reset --hard origin/master
+#git pull
 
 # обновление из git основного проекта
 echo -e "\033[0;32m dev git pull...\033[0m"
