@@ -1,12 +1,12 @@
 ---
-date: "2018-10-31"
-title: "Популярные вопросы"
+date: "2019-03-21"
+title: "USD счет - USD оплата"
 titleEn: "test3"
 tags: ["api", "метод"]
 Description: ""
 type: help_doc
 layout: help_doc
-weight: 13
+weight: 4
 ---
 
 {{<alert icon="question-circle" color="alert7-light" text="Как добавить еще один груз в заявку?" close="false">}} 
