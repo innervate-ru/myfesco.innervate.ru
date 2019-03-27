@@ -53,11 +53,4 @@ weight: 1
 
 {{<isHelpful>}}
 
-{{<seeAlso>}}
-    {{<seeAlsoItem link="/customs_documents/reloading/" text="Как дозагрузить документы">}}
-    {{<seeAlsoItem link="/customs_documents/delete/" text="Как отозвать документы">}}
-    {{<seeAlsoItem link="/customs_documents/statuses/" text="Статусы документов">}}
-    {{<seeAlsoItem link="/customs_documents/history/" text="Как посмотреть историю пакета документов">}}
-{{</seeAlso>}}
-
 
