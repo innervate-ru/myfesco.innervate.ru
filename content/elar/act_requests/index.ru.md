@@ -49,9 +49,3 @@ weight: 1
 
 {{<isHelpful>}}
 
-
-{{<seeAlso>}}
-    {{<seeAlsoItem link="/elar/duplicated_documents_requests/" text="Как подать запрос на дубликаты документов">}}
-    {{<seeAlsoItem link="/elar/archive_zip/" text="Как выгрузить документы архивом">}}
-{{</seeAlso>}}
-
