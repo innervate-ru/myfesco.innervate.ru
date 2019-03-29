@@ -22,13 +22,6 @@ menuIcon: location-arrow
 * Счета, акты и коносаменты;
 * ЖД-накладные.
 
-{{<isHelpful>}}
+тест
 
-{{<seeAlso>}}
-    {{<seeAlsoItem link="/tracking/where_container/" target="_blank" text="Где мой контейнер?">}}
-    {{<seeAlsoItem link="/tracking/customs_events/" text="Досмотр, взвешивание и МИДК">}}
-    {{<seeAlsoItem link="/tracking/customs_documents/" text="Таможенные документы">}}
-    {{<seeAlsoItem link="/tracking/custom_declaration/" target="_blank" text="Таможенная декларация">}}
-    {{<seeAlsoItem link="/tracking/invoices-and-acts/" text="Счета, акты и коносаменты">}}
-    {{<seeAlsoItem link="/tracking/railway_bills/" text="ЖД накладные">}}    
-{{</seeAlso>}}
+{{<isHelpful>}}
