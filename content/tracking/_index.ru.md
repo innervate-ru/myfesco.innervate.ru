@@ -22,6 +22,5 @@ menuIcon: location-arrow
 * Счета, акты и коносаменты;
 * ЖД-накладные.
 
-тест
 
 {{<isHelpful>}}
