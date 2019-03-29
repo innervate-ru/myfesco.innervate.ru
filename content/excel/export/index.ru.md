@@ -86,7 +86,4 @@ weight: 10
 </div>
 
 {{<isHelpful>}}
-
-{{<seeAlso>}}
-    {{<seeAlsoItem link="/excel/templates/" text="Как создать шаблон выгрузки">}}
-{{</seeAlso>}}
+ 

@@ -22,7 +22,7 @@ weight: 2
 * Нажмите на кнопку "Выбрать", чтобы галочками выбрать документы, дубликаты которых нужны (пользуйтесь поиском и фильтром);
 * Укажите комментарий (по необходимости). 
 
-
+ 
 {{< gif name="images/screencast2*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:90%">}}
 
 <br/>
@@ -43,7 +43,4 @@ weight: 2
 
 {{<isHelpful>}}
 
-{{<seeAlso>}}
-    {{<seeAlsoItem link="/elar/act_requests/" text="Как подать запрос на акт сверки">}}
-     {{<seeAlsoItem link="/elar/archive_zip/" text="Как выгрузить документы архивом">}}
-{{</seeAlso>}}
+

@@ -25,12 +25,6 @@ weight: 10
 
 <br/>
 Архив будет скачан на ваш компьютер.
-
+ 
 
 {{<isHelpful>}}
-
-
-{{<seeAlso>}}
-    {{<seeAlsoItem link="/elar/duplicated_documents_requests/" text="Как подать запрос на дубликаты документов">}}
-    {{<seeAlsoItem link="/elar/act_requests/" text="Как подать запрос на акт сверки">}}
-{{</seeAlso>}}

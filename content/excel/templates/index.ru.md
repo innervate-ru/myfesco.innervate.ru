@@ -26,11 +26,6 @@ weight: 10
 {{< img name="images/2*" class="img-fluid" style="width:80%">}}
 <br/>
 в) Нажмите оранжевую кнопку “Сформировать Excel-файл”, чтобы сгенерировать файл.
-
+ 
 
 {{<isHelpful>}}
-
-
-{{<seeAlso>}}
-    {{<seeAlsoItem link="/excel/export/" text="Как сгенерировать файл Excel">}}
-{{</seeAlso>}}

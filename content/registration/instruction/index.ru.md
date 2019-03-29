@@ -35,9 +35,4 @@ weight: 10
 * Подписанное приложение для работы в ЛК (запросить можно у Вашего менеджера)
 
 {{<isHelpful>}}
-
-{{<seeAlso>}}
-    {{<seeAlsoItem link="/registration/questions/" target="_blank" text="Если пароль от личного кабинета на почту не пришел">}}
-    {{<seeAlsoItem link="/registration/questions/" text="Что такое ограниченный и полный доступ в личный кабинет">}}
-    {{<seeAlsoItem link="/registration/questions/" text="Как получить полный доступ в личный кабинет">}}
-{{</seeAlso>}}
+ 

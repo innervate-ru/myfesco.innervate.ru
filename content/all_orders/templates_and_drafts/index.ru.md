@@ -9,7 +9,7 @@ layout: help_doc
 weight: 1
 ---
 
-
+ 
 #### Что такое черновик?
 
 {{<alert icon="info-circle" color="alert11-light" text="Черновик — это сохраненная, но не отправленная заявка." close="false">}}
@@ -28,14 +28,5 @@ weight: 1
 
 После попытки отправить заявку из шаблона или черновика, произойдёт проверка ставки и доступности выбранного рейса (для морской заявки).
 В случае неактуальности выбранного рейса или ставки в результатах выборки будет выведена соответствующая ошибка. Необходимо выбрать новую ставку и рейс.
-
-{{<seeAlso>}}
-    {{<seeAlsoItem link="/new_order/online_order/templates/" text="Как создать заявку из шаблона">}}
-    {{<seeAlsoItem link="/all_orders/tagging/" text="Зачем нужны теги и как их задать">}}
-    {{<seeAlsoItem link="/all_orders/errors/" text="Ошибки заявок">}}
-    {{<seeAlsoItem link="/all_orders/popular_questions/" text="Как восстановить отмененную заявку?">}}
-    {{<seeAlsoItem link="/all_orders/popular_questions/" text="Как скорректировать заявку?">}}
-    {{<seeAlsoItem link="/all_orders/popular_questions/" text="Когда заявка перемещается в архив?">}}
-{{</seeAlso>}}
 
 {{<isHelpful>}}

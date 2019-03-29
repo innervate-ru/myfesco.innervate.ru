@@ -11,7 +11,7 @@ weight: 4
 
 ##### Статусы таможенных документов: 
 <br/>
-
+ 
 
 * <b>Сбор документов</b> — заявка готова к сбору документов; 
 <br/>
@@ -25,10 +25,3 @@ weight: 4
 * <b>Транзит оформлен</b> — транзит оформлен, пакету документов присвоен номер транзитной декларации. 
 
 {{<isHelpful>}}
-
-{{<seeAlso>}}
-    {{<seeAlsoItem link="/customs_documents/download_and_send/" text="Как загрузить документы">}}
-    {{<seeAlsoItem link="/customs_documents/reloading/" text="Как дозагрузить документы">}}
-    {{<seeAlsoItem link="/customs_documents/delete/" text="Как отозвать документы">}}
-    {{<seeAlsoItem link="/customs_documents/history/" text="Как посмотреть историю пакета документов">}}
-{{</seeAlso>}}

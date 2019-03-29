@@ -9,7 +9,7 @@ layout: help_doc
 weight: 4
 menuIcon: folder-open
 ---
-
+ 
 <div class="pixxett-alert pixxett-alert-icon alert4-light">
   <i class="fa fa-info-circle"></i><b>Раздел Таможенное декларирование</b> позволяет загрузить и отправить документы для предварительного таможенного декларирования, а также проконтролировать сроки оформления документов.
 </div>

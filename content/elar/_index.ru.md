@@ -15,7 +15,7 @@ menuIcon: archive
 </div>
 
 #### Список документов
-
+ 
 Для того, чтобы посмотреть закрывающие документы по заявкам на перевозку, войдите в раздел <a href="https://my.fesco.com/archive" target="_blank">Электронный архив</a> .
 
 Для того, чтобы выгрузить единичный документ нажмите иконку в столбце Документ (1) . <br/>
@@ -46,7 +46,3 @@ menuIcon: archive
 
 {{<isHelpful>}}
 
-{{<seeAlso>}}
-    {{<seeAlsoItem link="/elar/act_requests/" text="Как подать запрос на акт сверки">}}
-    {{<seeAlsoItem link="/elar/duplicated_documents_requests/" text="Как подать запрос на дубликаты документов">}}
-{{</seeAlso>}}

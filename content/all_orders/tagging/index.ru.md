@@ -11,7 +11,7 @@ weight: 2
 
 {{<alert icon="info-circle" color="alert11-light" text="Теги позволяют проще найти заявку среди других." close="false">}}
 
-
+ 
 ##### Чтобы поставить тег или создать новый тег у заявки:
 * Зайдите в раздел <a href=" https://my.fesco.com/requests" target="_blank">“Мои заявки” </a>
 * Перейдите в плиточное предоставление данных
@@ -43,13 +43,5 @@ weight: 2
  <br/>
 Тег удален!
  <br/>
-
-{{<seeAlso>}}
-    {{<seeAlsoItem link="/all_orders/templates_and_drafts/" text="Черновики и шаблоны">}}
-    {{<seeAlsoItem link="/all_orders/errors/" text="Ошибки заявок">}}
-    {{<seeAlsoItem link="/all_orders/popular_questions/" text="Как восстановить отмененную заявку?">}}
-    {{<seeAlsoItem link="/all_orders/popular_questions/" text="Как скорректировать заявку?">}}
-    {{<seeAlsoItem link="/all_orders/popular_questions/" text="Когда заявка перемещается в архив?">}}
-{{</seeAlso>}}
 
 {{<isHelpful>}}
