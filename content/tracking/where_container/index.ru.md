@@ -36,11 +36,4 @@ weight: 1
 
 {{<isHelpful>}}
 
-
-{{<seeAlso>}}
-    {{<seeAlsoItem link="/tracking/customs_events/" text="Досмотр, взвешивание и МИДК">}}
-    {{<seeAlsoItem link="/tracking/customs_documents/" text="Таможенные документы">}}
-    {{<seeAlsoItem link="/tracking/custom_declaration/" target="_blank" text="Таможенная декларация">}}
-    {{<seeAlsoItem link="/tracking/invoices-and-acts/" text="Счета, акты и коносаменты">}}
-    {{<seeAlsoItem link="/tracking/railway_bills/" text="ЖД накладные">}}    
-{{</seeAlso>}}
+ 

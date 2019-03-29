@@ -18,13 +18,5 @@ weight: 3
 * Упаковочный лист;
 * Коносамент;
 * Договор транспортной экспедиции — договор международной перевозки (транспортной экспедиции), включая документы, подтверждающие согласование перевозки (заявка на перевозку) и связанные с перевозкой расходы (стоимость перевозки, вознаграждение экспедитора, дополнительные расходы, таможенные пошлины и сборы, а также прочие издержки с момента заключения договора до сдачи груза).
-
+ 
 {{<isHelpful>}}
-
-{{<seeAlso>}}
-    {{<seeAlsoItem link="/tracking/where_container/" target="_blank" text="Где мой контейнер?">}}
-    {{<seeAlsoItem link="/tracking/customs_events/" text="Досмотр, взвешивание и МИДК">}}
-    {{<seeAlsoItem link="/tracking/custom_declaration/" target="_blank" text="Таможенная декларация">}}
-    {{<seeAlsoItem link="/tracking/invoices-and-acts/" text="Счета, акты и коносаменты">}}
-    {{<seeAlsoItem link="/tracking/railway_bills/" text="ЖД накладные">}}    
-{{</seeAlso>}}

@@ -17,13 +17,5 @@ weight: 2
 
 
 {{< img name="images/1*" class="img-fluid" style="width:70%">}}
-
+ 
 {{<isHelpful>}}
-
-{{<seeAlso>}}
-    {{<seeAlsoItem link="/tracking/where_container/" target="_blank" text="Где мой контейнер?">}}
-    {{<seeAlsoItem link="/tracking/customs_documents/" text="Таможенные документы">}}
-    {{<seeAlsoItem link="/tracking/custom_declaration/" target="_blank" text="Таможенная декларация">}}
-    {{<seeAlsoItem link="/tracking/invoices-and-acts/" text="Счета, акты и коносаменты">}}
-    {{<seeAlsoItem link="/tracking/railway_bills/" text="ЖД накладные">}}    
-{{</seeAlso>}}
