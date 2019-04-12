@@ -13,10 +13,10 @@ weight: 3
 {{<alert icon="hand-o-up" color="alert11-light" text="Используйте эту функцию, если вам нужно создать новую заявку на основе данных из старой заявки." close="false">}} 
 
 
-а) Зайдите в <a href="https://my.fesco.com/requests" target="_blank">“Список заявок”</a>; <br/>
+а) Зайдите в “Список заявок” <br/>
 б) Найдите старую заявку и нажмите кнопку “Повторить”;
 
-{{< gif name="images/screencast2*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:80%">}}
+{{< gif name="images/screencast1*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:80%">}}
 <br/>
 
 в) Заполните поля, * помечены поля обязательные к заполнению, и нажмите на кнопку “Подать заявку”.

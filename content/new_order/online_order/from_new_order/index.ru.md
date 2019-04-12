@@ -9,10 +9,10 @@ layout: help_doc
 weight: 1
 ---
 
-а) зайдите на страницу <a href="https://my.fesco.com/requests" target="_blank">“Мои заявки”</a>   и нажмите оранжевую кнопку “Новая заявка”; <br/>
+а) зайдите на страницу “Мои заявки” и нажмите оранжевую кнопку “Новая заявка”; <br/>
 б) выберите вариант подачи заявки — Новая заявка;
 
-{{< gif name="images/screencast2*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:70%">}} <br/>
+{{< gif name="images/screencast1*" title="Подпись к фото которая попадает в тег alt" class="img-fluid" style="width:80%">}} <br/>
 
 в) выберите начальные поля
 
