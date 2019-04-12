@@ -28,32 +28,5 @@
       <description> test3 </description>
     </item>
     
-    <item>
-      <title>Test3</title>
-      <link>https://my.fesco.com/en/payments_and_invoices/rules_of_binding/</link>
-      <pubDate>Thu, 29 Mar 2018 21:54:53 -0500</pubDate>
-      
-      <guid>https://my.fesco.com/en/payments_and_invoices/rules_of_binding/</guid>
-      <description> test3 </description>
-    </item>
-    
-    <item>
-      <title>Test3</title>
-      <link>https://my.fesco.com/en/registration/instruction/</link>
-      <pubDate>Thu, 29 Mar 2018 21:54:53 -0500</pubDate>
-      
-      <guid>https://my.fesco.com/en/registration/instruction/</guid>
-      <description> test3 </description>
-    </item>
-    
-    <item>
-      <title>Test3</title>
-      <link>https://my.fesco.com/en/registration/questions/</link>
-      <pubDate>Thu, 29 Mar 2018 21:54:53 -0500</pubDate>
-      
-      <guid>https://my.fesco.com/en/registration/questions/</guid>
-      <description> test3 </description>
-    </item>
-    
   </channel>
 </rss>

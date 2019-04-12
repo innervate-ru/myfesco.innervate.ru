@@ -303,111 +303,6 @@
   </url>
   
   <url>
-    <loc>https://my.fesco.com/en/payments_and_invoices/</loc>
-    <lastmod>2014-09-29T21:54:53-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://my.fesco.com/payments_and_invoices/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://my.fesco.com/en/payments_and_invoices/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://my.fesco.com/en/payments_and_invoices/instruction_of_binding/usd-usd/</loc>
-    <lastmod>2014-09-29T21:54:53-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://my.fesco.com/payments_and_invoices/instruction_of_binding/usd-usd/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://my.fesco.com/en/payments_and_invoices/instruction_of_binding/usd-usd/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://my.fesco.com/en/payments_and_invoices/instruction_of_binding/usd-rouble/</loc>
-    <lastmod>2014-09-29T21:54:53-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://my.fesco.com/payments_and_invoices/instruction_of_binding/usd-rouble/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://my.fesco.com/en/payments_and_invoices/instruction_of_binding/usd-rouble/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://my.fesco.com/en/payments_and_invoices/instruction_of_binding/</loc>
-    <lastmod>2014-09-29T21:54:53-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://my.fesco.com/payments_and_invoices/instruction_of_binding/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://my.fesco.com/en/payments_and_invoices/instruction_of_binding/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://my.fesco.com/en/payments_and_invoices/instruction_of_binding/rouble-rouble/</loc>
-    <lastmod>2014-09-29T21:54:53-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://my.fesco.com/payments_and_invoices/instruction_of_binding/rouble-rouble/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://my.fesco.com/en/payments_and_invoices/instruction_of_binding/rouble-rouble/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://my.fesco.com/en/payments_and_invoices/instruction_of_binding/sample_letter/</loc>
-    <lastmod>2014-09-29T21:54:53-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://my.fesco.com/payments_and_invoices/instruction_of_binding/sample_letter/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://my.fesco.com/en/payments_and_invoices/instruction_of_binding/sample_letter/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://my.fesco.com/en/registration/</loc>
-    <lastmod>2014-09-29T21:54:53-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://my.fesco.com/registration/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://my.fesco.com/en/registration/"
-                />
-  </url>
-  
-  <url>
     <loc>https://my.fesco.com/en/tracking/</loc>
     <lastmod>2014-09-29T21:54:53-05:00</lastmod>
     <xhtml:link
@@ -588,21 +483,6 @@
   </url>
   
   <url>
-    <loc>https://my.fesco.com/en/vgm/</loc>
-    <lastmod>2014-09-29T21:54:53-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://my.fesco.com/vgm/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://my.fesco.com/en/vgm/"
-                />
-  </url>
-  
-  <url>
     <loc>https://my.fesco.com/en/why_cabinet/</loc>
     <lastmod>2014-09-29T21:54:53-05:00</lastmod>
     <xhtml:link
@@ -644,51 +524,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://my.fesco.com/en/excel/templates/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://my.fesco.com/en/payments_and_invoices/rules_of_binding/</loc>
-    <lastmod>2018-03-29T21:54:53-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://my.fesco.com/payments_and_invoices/rules_of_binding/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://my.fesco.com/en/payments_and_invoices/rules_of_binding/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://my.fesco.com/en/registration/instruction/</loc>
-    <lastmod>2018-03-29T21:54:53-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://my.fesco.com/registration/instruction/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://my.fesco.com/en/registration/instruction/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://my.fesco.com/en/registration/questions/</loc>
-    <lastmod>2018-03-29T21:54:53-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://my.fesco.com/registration/questions/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://my.fesco.com/en/registration/questions/"
                 />
   </url>
   

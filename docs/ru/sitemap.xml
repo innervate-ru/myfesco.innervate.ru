@@ -3,21 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://my.fesco.com/payments_and_invoices/instruction_of_binding/rouble-rouble/</loc>
-    <lastmod>2019-03-21T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://my.fesco.com/en/payments_and_invoices/instruction_of_binding/rouble-rouble/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://my.fesco.com/payments_and_invoices/instruction_of_binding/rouble-rouble/"
-                />
-  </url>
-  
-  <url>
     <loc>https://my.fesco.com/elar/act_requests/</loc>
     <lastmod>2018-11-13T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -63,21 +48,6 @@
   </url>
   
   <url>
-    <loc>https://my.fesco.com/registration/</loc>
-    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://my.fesco.com/en/registration/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://my.fesco.com/registration/"
-                />
-  </url>
-  
-  <url>
     <loc>https://my.fesco.com/tracking/where_container/</loc>
     <lastmod>2018-10-30T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -119,36 +89,6 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://my.fesco.com/all_orders/templates_and_drafts/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://my.fesco.com/payments_and_invoices/rules_of_binding/</loc>
-    <lastmod>2018-03-21T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://my.fesco.com/en/payments_and_invoices/rules_of_binding/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://my.fesco.com/payments_and_invoices/rules_of_binding/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://my.fesco.com/payments_and_invoices/instruction_of_binding/usd-rouble/</loc>
-    <lastmod>2019-03-21T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://my.fesco.com/en/payments_and_invoices/instruction_of_binding/usd-rouble/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://my.fesco.com/payments_and_invoices/instruction_of_binding/usd-rouble/"
                 />
   </url>
   
@@ -258,21 +198,6 @@
   </url>
   
   <url>
-    <loc>https://my.fesco.com/payments_and_invoices/instruction_of_binding/</loc>
-    <lastmod>2019-03-21T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://my.fesco.com/en/payments_and_invoices/instruction_of_binding/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://my.fesco.com/payments_and_invoices/instruction_of_binding/"
-                />
-  </url>
-  
-  <url>
     <loc>https://my.fesco.com/tracking/</loc>
     <lastmod>2018-11-12T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -359,36 +284,6 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://my.fesco.com/tracking/customs_documents/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://my.fesco.com/payments_and_invoices/instruction_of_binding/usd-usd/</loc>
-    <lastmod>2019-03-21T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://my.fesco.com/en/payments_and_invoices/instruction_of_binding/usd-usd/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://my.fesco.com/payments_and_invoices/instruction_of_binding/usd-usd/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://my.fesco.com/payments_and_invoices/instruction_of_binding/sample_letter/</loc>
-    <lastmod>2019-03-21T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://my.fesco.com/en/payments_and_invoices/instruction_of_binding/sample_letter/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://my.fesco.com/payments_and_invoices/instruction_of_binding/sample_letter/"
                 />
   </url>
   
@@ -558,21 +453,6 @@
   </url>
   
   <url>
-    <loc>https://my.fesco.com/payments_and_invoices/</loc>
-    <lastmod>2019-03-21T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://my.fesco.com/en/payments_and_invoices/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://my.fesco.com/payments_and_invoices/"
-                />
-  </url>
-  
-  <url>
     <loc>https://my.fesco.com/schedule/</loc>
     <lastmod>2018-11-13T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -633,36 +513,6 @@
   </url>
   
   <url>
-    <loc>https://my.fesco.com/vgm/</loc>
-    <lastmod>2018-11-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://my.fesco.com/en/vgm/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://my.fesco.com/vgm/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://my.fesco.com/registration/instruction/</loc>
-    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://my.fesco.com/en/registration/instruction/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://my.fesco.com/registration/instruction/"
-                />
-  </url>
-  
-  <url>
     <loc>https://my.fesco.com/new_order/questions/</loc>
     <lastmod>2018-10-31T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -678,23 +528,8 @@
   </url>
   
   <url>
-    <loc>https://my.fesco.com/registration/questions/</loc>
-    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://my.fesco.com/en/registration/questions/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://my.fesco.com/registration/questions/"
-                />
-  </url>
-  
-  <url>
     <loc>https://my.fesco.com/tags/api/</loc>
-    <lastmod>2019-03-21T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -710,7 +545,7 @@
   
   <url>
     <loc>https://my.fesco.com/</loc>
-    <lastmod>2019-03-21T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -726,7 +561,7 @@
   
   <url>
     <loc>https://my.fesco.com/tags/</loc>
-    <lastmod>2019-03-21T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -742,7 +577,7 @@
   
   <url>
     <loc>https://my.fesco.com/tags/%D0%BC%D0%B5%D1%82%D0%BE%D0%B4/</loc>
-    <lastmod>2019-03-21T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
